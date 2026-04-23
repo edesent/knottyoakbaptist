@@ -11,12 +11,11 @@ export default function Welcome() {
             <div className="relative aspect-[4/5] max-w-sm mx-auto lg:max-w-none">
               <div className="absolute -inset-4 bg-forest-800/90 rounded-sm -rotate-2" />
               <div
-                className="relative w-full h-full rounded-sm bg-harbor-200 overflow-hidden shadow-xl"
+                className="relative w-full h-full rounded-sm overflow-hidden shadow-xl"
                 style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80')",
+                  backgroundImage: "url('/pastor-placeholder.svg')",
                   backgroundSize: "cover",
-                  backgroundPosition: "center top",
+                  backgroundPosition: "center",
                 }}
               />
               <div className="absolute -bottom-5 -right-5 bg-paper px-5 py-3 shadow-lg">
