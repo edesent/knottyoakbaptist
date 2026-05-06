@@ -12,7 +12,7 @@ export default function Footer() {
             alt="Knotty Oak Baptist Church"
             width={500}
             height={500}
-            className="w-20 h-20 rounded-full object-cover ring-1 ring-brass-light/30 mb-5"
+            className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover ring-1 ring-brass-light/30 mb-6"
           />
           <h3 className="font-serif text-3xl text-white font-medium tracking-tight">
             {site.name}
