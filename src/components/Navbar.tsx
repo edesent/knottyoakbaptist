@@ -50,7 +50,7 @@ export default function Navbar() {
             width={500}
             height={500}
             priority
-            className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover ring-1 ring-brass-light/30 transition-transform group-hover:-rotate-[6deg]"
+            className="w-16 h-16 md:w-20 md:h-20 object-contain transition-transform group-hover:-rotate-[6deg]"
           />
           <span className="flex flex-col leading-none">
             <span className="font-serif text-lg md:text-xl font-semibold tracking-tight">
