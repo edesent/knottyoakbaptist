@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
@@ -24,6 +25,18 @@ export default function Hero() {
              backgroundImage:
                "radial-gradient(circle at 30% 20%, rgba(255,255,255,0.08) 0, transparent 50%), radial-gradient(circle at 70% 80%, rgba(255,255,255,0.06) 0, transparent 55%)",
            }} />
+
+      {/* Knotty Oak illustration — anchored right on desktop */}
+      <div className="absolute inset-y-0 right-0 hidden md:flex items-center justify-end pr-6 lg:pr-12 pointer-events-none w-1/2 max-w-[640px] opacity-30">
+        <Image
+          src="/knotty-oak-hero.png"
+          alt=""
+          width={1024}
+          height={1024}
+          priority
+          className="w-full h-auto max-h-[80vh] object-contain"
+        />
+      </div>
 
       {/* Content — asymmetric, anchored bottom-left on desktop */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 flex flex-col justify-end pb-20 md:pb-28 pt-32">
