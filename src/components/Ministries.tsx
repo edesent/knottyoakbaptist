@@ -61,6 +61,15 @@ const ministries = [
       "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?auto=format&fit=crop&w=800&q=80",
     accent: "harbor",
   },
+  {
+    name: "Child Evangelism Fellowship",
+    age: "Year-Round",
+    blurb:
+      "Partnering with CEF to reach boys and girls with the Good News of Jesus Christ through Good News Clubs and Bible-centered teaching in our community.",
+    href: "/ministries#cef",
+    image: "/cef.jpg",
+    accent: "forest",
+  },
 ];
 
 export default function Ministries() {

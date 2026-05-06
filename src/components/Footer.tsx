@@ -1,13 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site";
-import { OakLeaf } from "./Mark";
 
 export default function Footer() {
   return (
     <footer className="bg-forest-950 text-forest-100 pt-20 pb-10">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col items-center text-center">
-          <OakLeaf className="w-12 h-12 text-brass-light mb-5" />
+          <Image
+            src="/knottyoak-logo.jpg"
+            alt="Knotty Oak Baptist Church"
+            width={500}
+            height={500}
+            className="w-20 h-20 rounded-full object-cover ring-1 ring-brass-light/30 mb-5"
+          />
           <h3 className="font-serif text-3xl text-white font-medium tracking-tight">
             {site.name}
           </h3>
@@ -59,6 +65,8 @@ export default function Footer() {
             <ul className="space-y-1.5">
               <li><Link href="/ministries" className="text-forest-100/80 hover:text-brass-light transition-colors">Ministries</Link></li>
               <li><Link href="/mission" className="text-forest-100/80 hover:text-brass-light transition-colors">Our Mission</Link></li>
+              <li><Link href="/beliefs" className="text-forest-100/80 hover:text-brass-light transition-colors">Statement of Faith</Link></li>
+              <li><Link href="/covenant" className="text-forest-100/80 hover:text-brass-light transition-colors">Church Covenant</Link></li>
               <li><Link href="/give" className="text-forest-100/80 hover:text-brass-light transition-colors">Give</Link></li>
               <li><Link href="/#contact" className="text-forest-100/80 hover:text-brass-light transition-colors">Contact</Link></li>
               <li>

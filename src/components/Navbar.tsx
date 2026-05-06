@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { OakLeaf } from "./Mark";
 
 const navLinks = [
   { href: "/#services", label: "Times" },
@@ -44,7 +44,14 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="group flex items-center gap-3 text-white">
-          <OakLeaf className="w-7 h-7 text-brass-light transition-transform group-hover:rotate-[-8deg]" />
+          <Image
+            src="/knottyoak-logo.jpg"
+            alt="Knotty Oak Baptist Church"
+            width={500}
+            height={500}
+            priority
+            className="w-10 h-10 rounded-full object-cover ring-1 ring-brass-light/30 transition-transform group-hover:-rotate-[6deg]"
+          />
           <span className="flex flex-col leading-none">
             <span className="font-serif text-lg md:text-xl font-semibold tracking-tight">
               Knotty Oak

@@ -110,6 +110,18 @@ const ministries: Ministry[] = [
       "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?auto=format&fit=crop&w=1400&q=80",
     tone: "harbor",
   },
+  {
+    id: "cef",
+    eyebrow: "Children's Outreach",
+    title: "Child Evangelism Fellowship",
+    meta: "Year-Round",
+    description: [
+      "Knotty Oak partners with Child Evangelism Fellowship to reach boys and girls in our community with the Good News of Jesus Christ. Through Good News Clubs, 5-Day Clubs, and Bible-centered teaching, the Gospel is brought right where children are.",
+      "It's one of the most direct ways our church family multiplies its impact — coming alongside CEF workers and supporting the simple, faithful work of teaching children Scripture.",
+    ],
+    image: "/cef.jpg",
+    tone: "forest",
+  },
 ];
 
 export default function MinistriesPage() {
