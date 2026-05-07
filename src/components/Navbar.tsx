@@ -45,10 +45,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="group flex items-center gap-3 text-white">
           <Image
-            src="/knottyoak-logo.jpg"
+            src="/knotty-oak-hero.png"
             alt="Knotty Oak Baptist Church"
-            width={500}
-            height={500}
+            width={1024}
+            height={1024}
             priority
             className="w-16 h-16 md:w-20 md:h-20 object-contain transition-transform group-hover:-rotate-[6deg]"
           />

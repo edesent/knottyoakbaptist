@@ -8,10 +8,10 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col items-center text-center">
           <Image
-            src="/knottyoak-logo.jpg"
+            src="/knotty-oak-hero.png"
             alt="Knotty Oak Baptist Church"
-            width={500}
-            height={500}
+            width={1024}
+            height={1024}
             className="w-36 h-36 md:w-44 md:h-44 object-contain mb-6"
           />
           <h3 className="font-serif text-3xl text-white font-medium tracking-tight">
