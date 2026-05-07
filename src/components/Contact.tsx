@@ -71,6 +71,14 @@ export default function Contact() {
             referrerPolicy="no-referrer-when-downgrade"
           />
           <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-forest-950/20 via-transparent to-harbor-950/30 mix-blend-multiply" />
+
+          <div className="absolute top-5 left-5 right-5 md:right-auto md:max-w-sm bg-forest-950/95 backdrop-blur-sm border border-brass-light/30 rounded-sm shadow-lg px-5 py-3.5 flex items-start gap-3">
+            <span className="mt-1.5 w-2 h-2 rounded-full bg-brass-light shrink-0" aria-hidden />
+            <p className="text-sm text-white leading-snug">
+              <span className="font-semibold tracking-wide">First-time visitors:</span>{" "}
+              <span className="text-forest-100/90">please use the second parking lot.</span>
+            </p>
+          </div>
         </div>
       </div>
     </section>
