@@ -52,7 +52,7 @@ export default function Navbar() {
             priority
             className="w-16 h-16 md:w-20 md:h-20 object-contain transition-transform group-hover:-rotate-[6deg]"
           />
-          <span className="flex flex-col leading-none -ml-3 md:-ml-4">
+          <span className="flex flex-col leading-none -ml-1 md:-ml-1.5">
             <span className="font-serif text-lg md:text-xl font-semibold tracking-tight">
               Knotty Oak
             </span>
