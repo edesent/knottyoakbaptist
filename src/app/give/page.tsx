@@ -10,9 +10,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "/give" },
 };
 
-// TODO: Replace with Knotty Oak's actual Tithe.ly form ID once provided.
-// Tithe.ly embed format: https://tithe.ly/give?c={CHURCH_ID}  or  https://give.tithe.ly/?formId={FORM_ID}
-const TITHELY_URL = "";
+// Tithe.ly's `give_new` SPA URL is not iframe-embeddable.
+// To enable inline embed: get the form's UUID from the Tithe.ly admin
+// (Giving Forms → Embed) and set TITHELY_EMBED_URL to https://give.tithe.ly/?formId={UUID}.
+const TITHELY_URL = "https://tithe.ly/give_new/www/#/tithely/give-one-time/6151683";
+const TITHELY_EMBED_URL = "";
 
 export default function GivePage() {
   return (
@@ -48,11 +50,11 @@ export default function GivePage() {
             </p>
           </div>
 
-          {/* Tithely Embed (or placeholder) */}
-          {TITHELY_URL ? (
+          {/* Tithely — embed when a form UUID is available, otherwise link out */}
+          {TITHELY_EMBED_URL ? (
             <div className="bg-white rounded-sm shadow-md overflow-hidden border border-ink-faint/15">
               <iframe
-                src={TITHELY_URL}
+                src={TITHELY_EMBED_URL}
                 title="Give Online to Knotty Oak Baptist Church"
                 className="w-full border-0"
                 style={{ minHeight: "900px" }}
@@ -62,22 +64,22 @@ export default function GivePage() {
           ) : (
             <div className="bg-white rounded-sm shadow-md p-10 md:p-14 border border-ink-faint/15 text-center">
               <p className="eyebrow text-brass-dark">Online Giving</p>
-              <h2 className="mt-3 font-serif text-3xl text-ink font-medium">
-                Secure giving via Tithe.ly
+              <h2 className="mt-3 font-serif text-3xl md:text-4xl text-ink font-medium">
+                Give securely via Tithe.ly
               </h2>
               <p className="mt-5 text-ink-body max-w-lg mx-auto leading-relaxed">
-                Our secure online giving form is being set up. In the meantime,
-                you can give through Tithe.ly directly, or reach out to the church
-                office for other giving methods.
+                Tithes and offerings are processed securely through Tithe.ly.
+                You can give a one-time gift or set up a recurring gift.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-3">
                 <a
-                  href="https://tithe.ly/give"
+                  href={TITHELY_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-forest-900 text-white font-semibold text-sm tracking-wide uppercase px-7 py-3.5 rounded-full hover:bg-forest-800 transition-all"
+                  className="inline-flex items-center gap-2 bg-forest-900 text-white font-semibold text-sm tracking-wide uppercase px-8 py-4 rounded-full hover:bg-forest-800 hover:-translate-y-0.5 transition-all shadow-lg"
                 >
-                  Open Tithe.ly →
+                  Give on Tithe.ly
+                  <span aria-hidden>→</span>
                 </a>
                 <a
                   href="tel:+14018285856"
