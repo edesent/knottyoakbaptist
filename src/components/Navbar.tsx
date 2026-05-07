@@ -43,7 +43,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="group flex items-center gap-3 text-white">
+        <Link href="/" className="group flex items-center text-white">
           <Image
             src="/knotty-oak-hero.png"
             alt="Knotty Oak Baptist Church"
@@ -52,7 +52,7 @@ export default function Navbar() {
             priority
             className="w-16 h-16 md:w-20 md:h-20 object-contain transition-transform group-hover:-rotate-[6deg]"
           />
-          <span className="flex flex-col leading-none">
+          <span className="flex flex-col leading-none -ml-3 md:-ml-4">
             <span className="font-serif text-lg md:text-xl font-semibold tracking-tight">
               Knotty Oak
             </span>
