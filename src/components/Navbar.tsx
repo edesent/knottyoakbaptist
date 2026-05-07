@@ -57,7 +57,7 @@ export default function Navbar() {
               Knotty Oak
             </span>
             <span className="text-[0.58rem] font-semibold tracking-[0.28em] uppercase text-brass-light/90 mt-1">
-              Baptist Church · Est. 1828
+              Baptist Church · Est. 1840
             </span>
           </span>
         </Link>

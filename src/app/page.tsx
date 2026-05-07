@@ -21,7 +21,7 @@ const churchSchema = {
   logo: `${site.url}/favicon.svg`,
   image: `${site.url}/og-image.svg`,
   description:
-    "Independent Baptist church in Coventry, Rhode Island. Speaking the truth in love since 1828.",
+    "Independent Baptist church in Coventry, Rhode Island. Speaking the truth in love since 1840.",
   telephone: `+1-${site.phones.church.replace(/\D/g, "")}`,
   email: site.email,
   foundingDate: site.foundingDate,

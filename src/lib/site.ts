@@ -2,7 +2,7 @@ export const site = {
   name: "Knotty Oak Baptist Church",
   shortName: "Knotty Oak Baptist",
   tagline: "Speaking the Truth in Love",
-  foundingDate: "1828",
+  foundingDate: "1840",
   url: "https://www.knottyoak.org",
 
   address: {

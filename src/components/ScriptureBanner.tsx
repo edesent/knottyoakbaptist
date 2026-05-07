@@ -37,7 +37,7 @@ export default function ScriptureBanner() {
           </h2>
           <p className="mt-7 text-lg text-ink-body leading-relaxed">
             What we believe, written plainly. How we walk together, written
-            honestly. Both have anchored this congregation since 1828.
+            honestly. Both have anchored this congregation since 1840.
           </p>
         </div>
 

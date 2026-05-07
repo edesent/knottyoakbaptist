@@ -42,7 +42,7 @@ export default function Hero() {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 flex flex-col justify-end pb-20 md:pb-28 pt-32">
         <div className="max-w-3xl">
           <p className="rise-in delay-100 text-brass-light text-xs md:text-sm font-semibold tracking-[0.32em] uppercase">
-            Coventry, Rhode Island · Est. 1828
+            Coventry, Rhode Island · Est. 1840
           </p>
 
           <h1 className="rise-in delay-200 mt-5 font-serif text-white text-[clamp(3rem,7vw,6rem)] font-medium leading-[0.95] tracking-tight">
