@@ -111,7 +111,7 @@ export default function SermonGrid({ sermons }: Props) {
 
             <div className="relative aspect-video w-full bg-black rounded-sm overflow-hidden shadow-2xl">
               <iframe
-                src={`https://www.youtube-nocookie.com/embed/${active.videoId}?autoplay=1&rel=0`}
+                src={`https://www.youtube.com/embed/${active.videoId}?autoplay=1&rel=0`}
                 title={formatSermonDate(active.published)}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen

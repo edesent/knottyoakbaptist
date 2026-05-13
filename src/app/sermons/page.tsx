@@ -61,7 +61,7 @@ export default async function SermonsPage() {
 
               <div className="relative aspect-video w-full overflow-hidden rounded-sm shadow-xl bg-forest-950">
                 <iframe
-                  src={`https://www.youtube-nocookie.com/embed/${latest.videoId}`}
+                  src={`https://www.youtube.com/embed/${latest.videoId}?rel=0`}
                   title={`${formatSermonDate(latest.published)} — Knotty Oak Baptist Church`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
