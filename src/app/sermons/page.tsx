@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { OakLeaf } from "@/components/Mark";
+import SermonGrid from "@/components/SermonGrid";
 import { fetchSermons, formatSermonDate, YOUTUBE_CHANNEL_URL } from "@/lib/sermons";
 
 export const metadata: Metadata = {
@@ -107,52 +107,7 @@ export default async function SermonsPage() {
                 </a>
               </div>
             ) : (
-              <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7">
-                {archive.map((s) => (
-                  <li key={s.videoId}>
-                    <a
-                      href={`https://www.youtube.com/watch?v=${s.videoId}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="group block bg-paper border border-ink-faint/15 rounded-sm overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all"
-                    >
-                      <div className="relative aspect-video w-full bg-forest-100 overflow-hidden">
-                        <Image
-                          src={s.thumbnail}
-                          alt=""
-                          fill
-                          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                          unoptimized
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-forest-950/40 via-transparent to-transparent pointer-events-none" />
-                        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                          <span className="w-14 h-14 rounded-full bg-white/95 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-                            <svg viewBox="0 0 24 24" className="w-6 h-6 text-forest-900 ml-1" fill="currentColor" aria-hidden>
-                              <path d="M8 5v14l11-7z" />
-                            </svg>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="p-5">
-                        <p className="text-[0.65rem] font-semibold tracking-[0.28em] uppercase text-brass-dark">
-                          {new Date(s.published).toLocaleDateString("en-US", {
-                            weekday: "short",
-                          })}
-                        </p>
-                        <h3 className="mt-2 font-serif text-xl text-ink font-medium leading-snug">
-                          {formatSermonDate(s.published)}
-                        </h3>
-                        {typeof s.views === "number" && (
-                          <p className="mt-2 text-xs text-ink-body/60">
-                            {s.views.toLocaleString()} views
-                          </p>
-                        )}
-                      </div>
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <SermonGrid sermons={archive} />
             )}
           </div>
         </section>
