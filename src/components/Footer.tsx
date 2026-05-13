@@ -64,6 +64,7 @@ export default function Footer() {
             <p className="eyebrow text-brass-light mb-3">Explore</p>
             <ul className="space-y-1.5">
               <li><Link href="/ministries" className="text-forest-100/80 hover:text-brass-light transition-colors">Ministries</Link></li>
+              <li><Link href="/sermons" className="text-forest-100/80 hover:text-brass-light transition-colors">Sermons</Link></li>
               <li><Link href="/mission" className="text-forest-100/80 hover:text-brass-light transition-colors">Our Mission</Link></li>
               <li><Link href="/beliefs" className="text-forest-100/80 hover:text-brass-light transition-colors">Statement of Faith</Link></li>
               <li><Link href="/covenant" className="text-forest-100/80 hover:text-brass-light transition-colors">Church Covenant</Link></li>
