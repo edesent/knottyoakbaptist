@@ -32,7 +32,7 @@ export const site = {
   },
 
   services: [
-    { label: "Sunday School",     time: "9:00 AM",  day: "Sunday",   iso: "09:00" },
+    { label: "Sunday School",     time: "10:00 AM",  day: "Sunday",   iso: "10:00" },
     { label: "Morning Worship",   time: "10:00 AM", day: "Sunday",   iso: "10:00" },
     { label: "Evening Service",   time: "6:00 PM",  day: "Sunday",   iso: "18:00" },
     { label: "Bible Study & Prayer", time: "6:00 PM", day: "Thursday", iso: "18:00" },
