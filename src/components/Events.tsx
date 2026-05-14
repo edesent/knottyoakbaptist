@@ -17,8 +17,7 @@ export default async function Events() {
             </h2>
           </div>
           <p className="text-ink-muted text-sm max-w-sm">
-            A rhythm of study, prayer, and fellowship you can count on — plus the
-            special gatherings we most look forward to each year.
+            Every week there&rsquo;s a place for you here. These are the gatherings we don&rsquo;t want you to miss.
           </p>
         </div>
 
