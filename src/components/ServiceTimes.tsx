@@ -37,7 +37,7 @@ function CandleIcon(props: React.SVGProps<SVGSVGElement>) {
 const icons = [BookIcon, SunIcon, MoonIcon, CandleIcon] as const;
 const blurbs = [
   "Small-group teaching for every age, around an open Bible.",
-  "Worship together — hymns, prayer, and preaching from God's Word.",
+  "Worship together — hymns, spiritual songs, prayer, and preaching from God's Word.",
   "A quieter Sunday evening service to close the Lord's Day well.",
   "A time in the middle of the week to make His house a house of prayer.",
 ];
