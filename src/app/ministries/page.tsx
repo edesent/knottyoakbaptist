@@ -24,7 +24,7 @@ type Ministry = {
 const ministries: Ministry[] = [
   {
     id: "children",
-    eyebrow: "Age 4 – 8th Grade",
+    eyebrow: "Age 4 – 6th Grade",
     title: "Children's Ministry",
     meta: "Sunday Mornings & Evenings",
     description: [
