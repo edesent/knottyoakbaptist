@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "A warm, Bible-believing Independent Baptist church in Coventry, Rhode Island. Join Pastor Justin Martin for Sunday worship at 10 AM, Sunday evening at 6 PM, and Thursday at 6 PM. Speaking the truth in love since 1840.",
+    "A warm, Bible-believing Independent Baptist church in Coventry, Rhode Island. Join Pastor Justin Martin for Sunday worship at 11 AM, Sunday evening at 6 PM, and Thursday at 6 PM. Speaking the truth in love since 1840.",
   keywords: [
     "Knotty Oak Baptist Church",
     "Baptist church Coventry RI",
