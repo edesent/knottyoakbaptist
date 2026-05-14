@@ -27,7 +27,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       dayLabel: "Tue",
       description:
         "All ladies are welcome. Warm fellowship rooted in Scripture — come just as you are.",
-      contact: "Mrs. Baker · (401) 828-5856",
+      contact: "Crystal Martin · (401) 226-5856",
       recurring: true,
     },
     {
