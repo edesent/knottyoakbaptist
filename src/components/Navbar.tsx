@@ -100,6 +100,17 @@ export default function Navbar() {
             menuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
+          <button
+            type="button"
+            onClick={() => setMenuOpen(false)}
+            aria-label="Close menu"
+            className="absolute top-5 right-5 w-11 h-11 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors"
+          >
+            <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 6l12 12M6 18L18 6" />
+            </svg>
+          </button>
+
           <ul className="flex flex-col gap-1">
             {navLinks.map((link) => (
               <li key={link.href}>
