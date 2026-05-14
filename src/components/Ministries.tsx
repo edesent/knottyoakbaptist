@@ -7,8 +7,7 @@ const ministries = [
     blurb:
       "Children represent the greatest opportunity to make a long-term impact for Christ. Sunday morning and evening chapel with prayer, singing, teaching, crafts, and snacks — plus our annual VBS each August.",
     href: "/ministries#children",
-    image:
-      "https://images.unsplash.com/photo-1545231097-cbd1d9a84421?auto=format&fit=crop&w=800&q=80",
+    image: "/knotty-oak-childrens-ministry.jpg",
     accent: "forest",
   },
   {
@@ -27,8 +26,7 @@ const ministries = [
     blurb:
       "Relationship building and social activity are vital to the Christian life. We gather monthly for dinners, game nights, bowling, baseball games, and campfires — and weekly for worship.",
     href: "/ministries#young-adults",
-    image:
-      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80",
+    image: "/knotty-oak-young-adult.jpg",
     accent: "forest",
   },
   {
@@ -57,8 +55,7 @@ const ministries = [
     blurb:
       "A long-loved summer tradition — a full week of Bible teaching, recreation, crafts, and joy, capped by a Saturday Funfair and Parent's Night.",
     href: "/ministries#vbs",
-    image:
-      "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?auto=format&fit=crop&w=800&q=80",
+    image: "/food-spread.jpg",
     accent: "harbor",
   },
   {

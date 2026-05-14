@@ -36,8 +36,7 @@ const ministries: Ministry[] = [
       { label: "Children's Chapel (AM)", value: "10:00 AM" },
       { label: "Evening Classes", value: "6:00 PM" },
     ],
-    image:
-      "https://images.unsplash.com/photo-1545231097-cbd1d9a84421?auto=format&fit=crop&w=1400&q=80",
+    image: "/knotty-oak-childrens-ministry.jpg",
     tone: "forest",
   },
   {
@@ -67,8 +66,7 @@ const ministries: Ministry[] = [
       "Relationship building and social activity are important aspects of the Christian life. Our young adults gather regularly for dinners, bowling, game nights, campfires, and baseball games — and worship together every Sunday.",
       "It's the kind of community you'd want for your early career, early marriage, and early-parenting years: real friends, serious about Scripture, enjoying life together.",
     ],
-    image:
-      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=80",
+    image: "/knotty-oak-young-adult.jpg",
     tone: "forest",
   },
   {
@@ -106,8 +104,7 @@ const ministries: Ministry[] = [
       "Knotty Oak has a long history of conducting excellent Vacation Bible Schools. Each year the first full week of August, children ages 4 through 8th grade enjoy a full week of teaching, recreation, crafts, and refreshments.",
       "The week closes with a Saturday Funfair and a Sunday Parent's Night — a warm invitation for the whole community.",
     ],
-    image:
-      "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?auto=format&fit=crop&w=1400&q=80",
+    image: "/food-spread.jpg",
     tone: "harbor",
   },
   {
