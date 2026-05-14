@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { OakLeaf } from "@/components/Mark";
@@ -12,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const TITHELY_FORM_ID = "987a0e90-6865-11ee-90fc-1260ab546d11";
+const TITHELY_EMBED_URL = `https://give.tithe.ly/?formId=${TITHELY_FORM_ID}`;
 
 export default function GivePage() {
   return (
@@ -46,31 +46,14 @@ export default function GivePage() {
             </p>
           </div>
 
-          <div className="bg-white rounded-sm shadow-md p-10 md:p-14 border border-ink-faint/15 text-center">
-            <p className="eyebrow text-brass-dark">Online Giving</p>
-            <h2 className="mt-3 font-serif text-3xl md:text-4xl text-ink font-medium">
-              Give securely via Tithe.ly
-            </h2>
-            <p className="mt-5 text-ink-body max-w-lg mx-auto leading-relaxed">
-              Tithes and offerings are processed securely through Tithe.ly.
-              You can give a one-time gift or set up a recurring gift.
-            </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <button
-                type="button"
-                className="tithely-give-button inline-flex items-center gap-2 bg-forest-900 text-white font-semibold text-sm tracking-wide uppercase px-8 py-4 rounded-full hover:bg-forest-800 hover:-translate-y-0.5 transition-all shadow-lg cursor-pointer border-0"
-                data-form={TITHELY_FORM_ID}
-              >
-                Give Now
-                <span aria-hidden>→</span>
-              </button>
-              <a
-                href="tel:+14018285856"
-                className="inline-flex items-center gap-2 text-forest-800 font-semibold text-sm tracking-wide uppercase px-7 py-3.5 rounded-full border-2 border-forest-800/30 hover:bg-forest-100 hover:border-forest-800/60 transition-all"
-              >
-                Call the Church
-              </a>
-            </div>
+          <div className="bg-white rounded-sm shadow-md overflow-hidden border border-ink-faint/15">
+            <iframe
+              src={TITHELY_EMBED_URL}
+              title="Give Online to Knotty Oak Baptist Church"
+              className="w-full border-0 block"
+              style={{ minHeight: "1000px" }}
+              allow="payment"
+            />
           </div>
 
           <div className="mt-16 grid md:grid-cols-2 gap-6 text-sm">
@@ -94,7 +77,6 @@ export default function GivePage() {
         </div>
       </main>
       <Footer />
-      <Script src="https://static.tithely.com/give/give.js" strategy="afterInteractive" />
     </>
   );
 }
