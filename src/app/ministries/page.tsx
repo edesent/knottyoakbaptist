@@ -32,7 +32,7 @@ const ministries: Ministry[] = [
       "Children begin together, then split into classroom groups. On Sunday evenings they join the adults for worship before dismissing to their classes.",
     ],
     highlights: [
-      { label: "Sunday School", value: "9:00 AM" },
+      { label: "Sunday School", value: "10:00 AM" },
       { label: "Children's Chapel (AM)", value: "10:00 AM" },
       { label: "Evening Classes", value: "6:00 PM" },
     ],
