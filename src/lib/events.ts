@@ -36,7 +36,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       dayLabel: "Aug",
       dateLabel: "Summer",
       description:
-        "A week of teaching, crafts, games, and joy for children ages 4 through 8th grade. Concludes Saturday with our Funfair and Sunday Parent's Night.",
+        "A week of teaching, crafts, games, and joy for children ages 5 through 12th grade. Concludes Saturday with our Funfair and Sunday Parent's Night.",
       recurring: true,
     },
   ];
