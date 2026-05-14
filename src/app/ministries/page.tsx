@@ -100,7 +100,7 @@ const ministries: Ministry[] = [
     title: "Vacation Bible School",
     meta: "Annual",
     description: [
-      "Knotty Oak has a long history of conducting excellent Vacation Bible Schools. Each year the first full week of August, children ages 4 through 8th grade enjoy a full week of teaching, recreation, crafts, and refreshments.",
+      "Knotty Oak has a long history of conducting excellent Vacation Bible Schools. Each year the first full week of August, children ages 5 through 12th grade enjoy a full week of teaching, recreation, crafts, and refreshments.",
       "The week closes with a Saturday Funfair and a Sunday Parent's Night — a warm invitation for the whole community.",
     ],
     image: "/vbs.jpg",
