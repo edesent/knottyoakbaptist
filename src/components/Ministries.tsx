@@ -35,8 +35,7 @@ const ministries = [
     blurb:
       "All men are welcome — a time to study Scripture, pray together, and sharpen one another in the Word. Contact Pastor Justin at (401) 212-7233.",
     href: "/ministries#mens",
-    image:
-      "https://images.unsplash.com/photo-1508790955-13c12c61ff13?auto=format&fit=crop&w=800&q=80",
+    image: "/mens-bible-study.jpg",
     accent: "harbor",
   },
   {

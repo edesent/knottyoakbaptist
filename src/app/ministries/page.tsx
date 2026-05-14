@@ -78,8 +78,7 @@ const ministries: Ministry[] = [
       "All men are welcome to join our weekly Bible study. A steady rhythm of study, prayer, and honest conversation — men sharpening one another in the Word.",
     ],
     highlights: [{ label: "Contact", value: "Pastor Justin · (401) 212-7233" }],
-    image:
-      "https://images.unsplash.com/photo-1508790955-13c12c61ff13?auto=format&fit=crop&w=1400&q=80",
+    image: "/mens-bible-study.jpg",
     tone: "harbor",
   },
   {
