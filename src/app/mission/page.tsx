@@ -24,7 +24,7 @@ const beliefs = [
   {
     heading: "Worship that is Reverent, yet Informal",
     body:
-      "Our worship is informal, yet reverent. Our preaching and teaching are thorough, yet practical — meeting believers and seekers where they are.",
+      "Our worship is informal, yet reverent. We sing hymns and spiritual songs. Our preaching and teaching are thorough, yet practical — meeting believers and seekers where they are.",
   },
   {
     heading: "Inward Submission, Outward Obedience",
