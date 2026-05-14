@@ -1,6 +1,6 @@
 import { type SVGProps } from "react";
 
-// Simple stylized oak-leaf silhouette. Works on any background color via currentColor.
+// Stylized acorn silhouette. Works on any background color via currentColor.
 export function OakLeaf(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
@@ -10,7 +10,12 @@ export function OakLeaf(props: SVGProps<SVGSVGElement>) {
       aria-hidden="true"
       {...props}
     >
-      <path d="M20 2c-1.2 2.6-3.3 4-5.8 4.2-1.6.1-3-.3-4.3-1-.3 2 .4 3.9 1.8 5.4-2.3.3-4.3 1.7-5.4 3.8 2 .6 3.5 2 4.2 4-2 .5-3.6 2-4.4 4 2.2.5 3.8 2 4.5 4-2 .6-3.6 2.2-4.3 4.3 2.6.3 4.7 1.9 5.8 4.2.5 1 1.5 1.5 2.6 1.4.8-.1 1.5-.5 2-1.2.9-1.3 2-2 3.3-2.3v9h2v-9c1.3.3 2.4 1 3.3 2.3.5.7 1.2 1.1 2 1.2 1.1.1 2.1-.4 2.6-1.4 1.1-2.3 3.2-3.9 5.8-4.2-.7-2.1-2.3-3.7-4.3-4.3.7-2 2.3-3.5 4.5-4-.8-2-2.4-3.5-4.4-4 .7-2 2.2-3.4 4.2-4-1.1-2.1-3.1-3.5-5.4-3.8 1.4-1.5 2.1-3.4 1.8-5.4-1.3.7-2.7 1.1-4.3 1C23.3 6 21.2 4.6 20 2z" />
+      {/* Stem */}
+      <path d="M19 1 Q20 0 21 1 L21.5 8 L18.5 8 Z" />
+      {/* Cap — wider than body to create the acorn shoulder */}
+      <path d="M18.5 8 C10 8 6 11 6 16 L8 22 C12 24 28 24 32 22 L34 16 C34 11 30 8 21.5 8 Z" />
+      {/* Body — rounded oval below the cap */}
+      <path d="M8 22 C6 32 12 40 20 40 C28 40 34 32 32 22 C28 24 12 24 8 22 Z" />
     </svg>
   );
 }
