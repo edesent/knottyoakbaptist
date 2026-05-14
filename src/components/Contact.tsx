@@ -1,4 +1,5 @@
 import { site } from "@/lib/site";
+import MessagePastorButton from "./MessagePastorButton";
 
 export default function Contact() {
   const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(
@@ -57,7 +58,14 @@ export default function Contact() {
               </div>
             </dl>
 
-            <ContactForm />
+            <div className="mt-12">
+              <p className="text-forest-100/75 text-sm leading-relaxed mb-5 max-w-md">
+                Have a question, prayer request, or want to plan a visit? Send
+                Pastor Justin a quick message — it opens a chat window and he&rsquo;ll
+                get back to you.
+              </p>
+              <MessagePastorButton />
+            </div>
           </div>
         </div>
 
@@ -85,51 +93,3 @@ export default function Contact() {
   );
 }
 
-function ContactForm() {
-  // Note: this form POSTs to a mailto: handler as a safe default until a real
-  // endpoint (Formspree / Vercel serverless / Basin) is wired up.
-  return (
-    <form
-      action={`mailto:pastor@knottyoak.org`}
-      method="post"
-      encType="text/plain"
-      className="mt-12 grid sm:grid-cols-2 gap-4"
-    >
-      <label className="block">
-        <span className="text-[0.7rem] font-semibold tracking-[0.2em] uppercase text-brass-light/70">Name</span>
-        <input
-          name="name"
-          required
-          className="mt-1.5 w-full bg-transparent border-b border-forest-100/20 text-white py-2 focus:border-brass-light focus:outline-none transition-colors"
-        />
-      </label>
-      <label className="block">
-        <span className="text-[0.7rem] font-semibold tracking-[0.2em] uppercase text-brass-light/70">Email</span>
-        <input
-          name="email"
-          type="email"
-          required
-          className="mt-1.5 w-full bg-transparent border-b border-forest-100/20 text-white py-2 focus:border-brass-light focus:outline-none transition-colors"
-        />
-      </label>
-      <label className="block sm:col-span-2">
-        <span className="text-[0.7rem] font-semibold tracking-[0.2em] uppercase text-brass-light/70">Message</span>
-        <textarea
-          name="message"
-          required
-          rows={4}
-          className="mt-1.5 w-full bg-transparent border-b border-forest-100/20 text-white py-2 focus:border-brass-light focus:outline-none transition-colors resize-none"
-        />
-      </label>
-      <div className="sm:col-span-2 mt-2">
-        <button
-          type="submit"
-          className="inline-flex items-center gap-2 bg-brass text-forest-950 font-semibold text-sm tracking-wide uppercase px-8 py-3.5 rounded-full hover:bg-brass-light hover:-translate-y-0.5 transition-all"
-        >
-          Send Message
-          <span aria-hidden>→</span>
-        </button>
-      </div>
-    </form>
-  );
-}
