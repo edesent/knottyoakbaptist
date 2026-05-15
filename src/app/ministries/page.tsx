@@ -50,7 +50,7 @@ const ministries: Ministry[] = [
     ],
     highlights: [
       { label: "Summer Missions", value: "July" },
-      { label: "Teen VBS", value: "Grades 7–9 · August" },
+      { label: "Teen VBS", value: "Grades 7–12 · August" },
       { label: "Fellowship Nights", value: "Monthly" },
     ],
     image:
