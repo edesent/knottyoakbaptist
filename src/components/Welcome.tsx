@@ -41,16 +41,29 @@ export default function Welcome() {
 
             <div className="mt-8 space-y-5 text-lg text-ink-body leading-relaxed max-w-2xl">
               <p>
-                For nearly two centuries, Knotty Oak Baptist Church has stood as a
-                quiet, steady witness in the heart of Coventry — preaching the
-                Gospel, opening the Word, and welcoming neighbors into the family of
-                God.
+                Our church is a family. Not a building — a family. The kind that
+                takes in a lost teenager with no church background and loves him like
+                he belongs.
               </p>
               <p>
-                Whether you&rsquo;re walking with Christ for the first time or have
-                followed Him for decades, we&rsquo;d love to greet you this Sunday.
-                Our services are <em>informal, yet reverent</em> — thorough in the
-                Word, and practical for the week ahead.
+                That teenager was me. A friend invited me to a teen game night. I
+                showed up with nothing but curiosity. What I found was warmth,
+                belonging, and people who genuinely cared. I found a family. Little
+                did I know — God actually found me.
+              </p>
+              <p>
+                He took a lost, hopeless teen and began writing a story I never could
+                have imagined. I started coming to church, and as I grew I felt God
+                calling me to Bible college. I came back on staff in 2008, and in
+                2023 I became the pastor — privileged to lead the church I call home.
+              </p>
+              <p>
+                That&rsquo;s what Jesus does. He meets you right where you are — and
+                this church is where He met me.
+              </p>
+              <p>
+                So wherever you&rsquo;re coming from — you are welcome here. You
+                have a place to call home.
               </p>
             </div>
 
