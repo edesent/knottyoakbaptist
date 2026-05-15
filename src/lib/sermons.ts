@@ -60,3 +60,25 @@ export function formatSermonDate(iso: string): string {
     day: "numeric",
   });
 }
+
+// Returns the video ID of an active live broadcast, or null if idle.
+// Uses the unauthenticated /channel/{id}/live endpoint — when a live
+// broadcast is active YouTube serves the live watch page and the canonical
+// URL points to /watch?v={videoId}; when idle it points back to the channel.
+export async function fetchLiveVideoId(): Promise<string | null> {
+  try {
+    const url = `https://www.youtube.com/channel/${CHANNEL_ID}/live`;
+    const res = await fetch(url, {
+      headers: { "User-Agent": "Mozilla/5.0" },
+      next: { revalidate: 60 },
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const canonical =
+      html.match(/<link rel="canonical"\s+href="([^"]+)"/)?.[1] ?? "";
+    const videoMatch = canonical.match(/[?&]v=([A-Za-z0-9_-]{11})/);
+    return videoMatch?.[1] ?? null;
+  } catch {
+    return null;
+  }
+}

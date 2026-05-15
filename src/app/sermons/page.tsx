@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { OakLeaf } from "@/components/Mark";
 import SermonGrid from "@/components/SermonGrid";
-import { fetchSermons, formatSermonDate, YOUTUBE_CHANNEL_URL } from "@/lib/sermons";
+import { fetchLiveVideoId, fetchSermons, formatSermonDate, YOUTUBE_CHANNEL_URL } from "@/lib/sermons";
 
 export const metadata: Metadata = {
   title: "Sermons",
@@ -12,10 +12,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/sermons" },
 };
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 export default async function SermonsPage() {
-  const sermons = await fetchSermons();
+  const [sermons, liveVideoId] = await Promise.all([
+    fetchSermons(),
+    fetchLiveVideoId(),
+  ]);
   const latest = sermons[0];
   const archive = sermons.slice(1);
 
@@ -39,7 +42,44 @@ export default async function SermonsPage() {
           </p>
         </header>
 
-        {latest ? (
+        {liveVideoId ? (
+          <section className="bg-forest-950 py-20 md:py-24 text-white">
+            <div className="max-w-5xl mx-auto px-6 md:px-10">
+              <div className="flex flex-wrap items-baseline justify-between gap-3 mb-6">
+                <div>
+                  <p className="inline-flex items-center gap-2 text-[0.7rem] font-bold tracking-[0.32em] uppercase text-red-400">
+                    <span className="relative flex h-2.5 w-2.5" aria-hidden>
+                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-500 opacity-75" />
+                      <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-red-500" />
+                    </span>
+                    Live Now
+                  </p>
+                  <h2 className="mt-3 font-serif text-3xl md:text-4xl text-white font-medium leading-tight tracking-tight">
+                    Service in progress — join us
+                  </h2>
+                </div>
+                <a
+                  href={`https://www.youtube.com/watch?v=${liveVideoId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-semibold tracking-[0.18em] uppercase text-brass-light hover:text-white transition-colors"
+                >
+                  Open on YouTube ↗
+                </a>
+              </div>
+
+              <div className="relative aspect-video w-full overflow-hidden rounded-sm shadow-2xl bg-black">
+                <iframe
+                  src={`https://www.youtube.com/embed/${liveVideoId}?autoplay=1&rel=0`}
+                  title="Knotty Oak Baptist Church — Live Service"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full border-0"
+                />
+              </div>
+            </div>
+          </section>
+        ) : latest ? (
           <section className="bg-paper-warm py-20 md:py-24">
             <div className="max-w-5xl mx-auto px-6 md:px-10">
               <div className="flex flex-wrap items-baseline justify-between gap-3 mb-6">
