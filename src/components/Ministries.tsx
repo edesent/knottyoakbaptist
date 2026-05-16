@@ -54,7 +54,7 @@ const ministries = [
     blurb:
       "A long-loved summer tradition — a full week of Bible teaching, recreation, crafts, and joy, capped by a Saturday Funfair and Parent's Night.",
     href: "/ministries#vbs",
-    image: "/vbs.jpg",
+    image: "https://images.unsplash.com/photo-1638202951770-2240942c7d1c?auto=format&fit=crop&w=800&q=80",
     accent: "harbor",
   },
   {
