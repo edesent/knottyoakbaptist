@@ -90,8 +90,7 @@ const ministries: Ministry[] = [
       "All ladies are welcome. A warm, rooted study that meets women where they are — come as you are.",
     ],
     highlights: [{ label: "Contact", value: "Crystal Martin · (401) 226-5856" }],
-    image:
-      "https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1400&q=80",
+    image: "https://images.unsplash.com/photo-1553729784-e91953dec042?auto=format&fit=crop&w=1400&q=80",
     tone: "forest",
   },
   {
