@@ -83,6 +83,16 @@ const nextConfig: NextConfig = {
         destination: "/ministries",
         statusCode: 301,
       },
+      {
+        source: "/:slug.php",
+        destination: "/",
+        statusCode: 301,
+      },
+      {
+        source: "/:slug.html",
+        destination: "/",
+        statusCode: 301,
+      },
     ];
   },
 };
