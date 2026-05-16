@@ -78,6 +78,11 @@ const nextConfig: NextConfig = {
         destination: "/",
         statusCode: 301,
       },
+      {
+        source: "/ministries.php",
+        destination: "/ministries",
+        statusCode: 301,
+      },
     ];
   },
 };
