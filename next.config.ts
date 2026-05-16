@@ -11,6 +11,15 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "i9.ytimg.com" },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/home.php",
+        destination: "/",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
