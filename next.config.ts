@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
       {
         source: "/home.php",
         destination: "/",
-        permanent: true,
+        statusCode: 301,
       },
     ];
   },
