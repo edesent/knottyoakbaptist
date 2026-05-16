@@ -66,7 +66,7 @@ const ministries: Ministry[] = [
       "Relationship building and social activity are important aspects of the Christian life. Our young adults gather regularly for dinners, bowling, game nights, campfires, and baseball games — and worship together every Sunday.",
       "It's the kind of community you'd want for your early career, early marriage, and early-parenting years: real friends, serious about Scripture, enjoying life together.",
     ],
-    image: "/knotty-oak-young-adult.jpg",
+    image: "https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=1400&q=80",
     tone: "forest",
   },
   {
