@@ -55,7 +55,7 @@ export default function Welcome() {
               <p>
                 He took a lost, hopeless teen and began writing a story I never could
                 have imagined. I started coming to church, and as I grew I felt God
-                calling me to Bible college. I came back home and decided to volunteer at the church and help as much as I could. Eventually, I came on staff that same year in 2008, and in
+                calling me to Bible college. I came home after graduating Bible college, began to volunteer at the church, then became part of the staff in 2008 later that year, and in
                 2023 I became the pastor — privileged to lead the church I call home.
               </p>
               <p>
