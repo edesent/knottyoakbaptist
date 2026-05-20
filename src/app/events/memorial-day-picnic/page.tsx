@@ -165,7 +165,7 @@ export default function MemorialDayPicnicPage() {
               {[
                 { icon:"📅", lbl:"Date",   val:"Monday, May 26th" },
                 { icon:"⏰", lbl:"Kickoff", val:"12:00 PM" },
-                { icon:"📍", lbl:"Where",  val:"Church Grounds" },
+                { icon:"📍", lbl:"Where",  val:"Rice Field" },
               ].map((item,i)=>(
                 <div key={i} style={{ flex:1, textAlign:"center", padding:"14px 8px", borderRight: i<2 ? "1px solid rgba(255,255,255,0.1)" : "none" }}>
                   <div style={{ fontSize:"24px", lineHeight:1, marginBottom:"3px" }}>{item.icon}</div>
