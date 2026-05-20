@@ -33,7 +33,7 @@ const ministries: Ministry[] = [
     ],
     highlights: [
       { label: "Sunday School", value: "10:00 AM" },
-      { label: "Children's Chapel (AM)", value: "10:00 AM" },
+      { label: "Children's Chapel (AM)", value: "11:00 AM" },
       { label: "Evening Classes", value: "6:00 PM" },
     ],
     image: "https://images.unsplash.com/flagged/photo-1567116681178-c326fa4e2c8b?auto=format&fit=crop&w=1400&q=80",
