@@ -13,7 +13,7 @@ export default function Welcome() {
               <div
                 className="relative w-full h-full rounded-sm overflow-hidden shadow-xl"
                 style={{
-                  backgroundImage: "url('/pastor-justin.jpg')",
+                  backgroundImage: "url('/pastor-justin.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                 }}
