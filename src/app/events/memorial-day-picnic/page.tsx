@@ -44,9 +44,25 @@ export default function MemorialDayPicnicPage() {
                 boxShadow: "0 0 50px 20px rgba(255,220,0,0.6), 0 0 100px 40px rgba(255,180,0,0.35)",
               }} />
 
-              {/* Clouds */}
-              <div style={{ position:"absolute", top:"40px", left:"35px", width:"130px", height:"38px", background:"white", borderRadius:"100px", filter:"drop-shadow(0 3px 6px rgba(0,0,0,0.1))" }} />
-              <div style={{ position:"absolute", top:"55px", left:"490px", width:"100px", height:"30px", background:"white", borderRadius:"100px", filter:"drop-shadow(0 3px 6px rgba(0,0,0,0.1))" }} />
+              {/* Cloud 1 */}
+              <div style={{ position:"absolute", top:"38px", left:"30px" }}>
+                <div style={{ position:"relative", width:"140px", height:"55px", filter:"drop-shadow(0 4px 6px rgba(0,0,0,0.12))" }}>
+                  <div style={{ position:"absolute", bottom:0, left:0, right:0, height:"30px", background:"white", borderRadius:"30px" }} />
+                  <div style={{ position:"absolute", bottom:"18px", left:"10px", width:"55px", height:"55px", background:"white", borderRadius:"50%" }} />
+                  <div style={{ position:"absolute", bottom:"22px", left:"40px", width:"65px", height:"65px", background:"white", borderRadius:"50%" }} />
+                  <div style={{ position:"absolute", bottom:"16px", left:"85px", width:"44px", height:"44px", background:"white", borderRadius:"50%" }} />
+                </div>
+              </div>
+
+              {/* Cloud 2 */}
+              <div style={{ position:"absolute", top:"30px", left:"470px" }}>
+                <div style={{ position:"relative", width:"110px", height:"45px", filter:"drop-shadow(0 4px 6px rgba(0,0,0,0.12))" }}>
+                  <div style={{ position:"absolute", bottom:0, left:0, right:0, height:"24px", background:"white", borderRadius:"24px" }} />
+                  <div style={{ position:"absolute", bottom:"14px", left:"8px", width:"42px", height:"42px", background:"white", borderRadius:"50%" }} />
+                  <div style={{ position:"absolute", bottom:"18px", left:"32px", width:"50px", height:"50px", background:"white", borderRadius:"50%" }} />
+                  <div style={{ position:"absolute", bottom:"12px", left:"68px", width:"34px", height:"34px", background:"white", borderRadius:"50%" }} />
+                </div>
+              </div>
 
               {/* Sparkles */}
               {["12px","52px","28px","65px","44px"].map((top, i) => (
