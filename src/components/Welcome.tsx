@@ -47,7 +47,7 @@ export default function Welcome() {
               </p>
               <p>
                 That teenager was me. I was born and raised in Coventry. One
-                day I was invited to a team game night by a childhood friend that
+                day I was invited to a teen game night by a childhood friend that
                 attended Knotty Oak Baptist Church. I showed up with nothing but curiosity. What I found was warmth,
                 belonging, and people who genuinely cared. I found a family. Little
                 did I know — God actually found me.
