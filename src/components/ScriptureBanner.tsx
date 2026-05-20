@@ -35,10 +35,7 @@ export default function ScriptureBanner() {
             A church on a
             <span className="block italic text-brass-dark">sure foundation.</span>
           </h2>
-          <p className="mt-7 text-lg text-ink-body leading-relaxed">
-            What we believe, written plainly. How we walk together, written
-            honestly. Both have anchored this congregation since 1840.
-          </p>
+
         </div>
 
         {/* Two cards */}
