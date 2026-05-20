@@ -95,7 +95,7 @@ const ministries: Ministry[] = [
   },
   {
     id: "vbs",
-    eyebrow: "First Week of August",
+    eyebrow: "First Full Week of August",
     title: "Vacation Bible School",
     meta: "Annual",
     description: [
