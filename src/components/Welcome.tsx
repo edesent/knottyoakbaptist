@@ -12,7 +12,7 @@ export default function Welcome() {
               <div className="absolute -inset-4 bg-forest-800/90 rounded-sm -rotate-2" />
               <div className="relative w-full h-full rounded-sm overflow-hidden shadow-xl">
                 <img
-                  src="/pastor-justin.png"
+                  src="/pastor-headshot.png"
                   alt="Pastor Justin Martin"
                   className="w-full h-full object-cover object-center"
                 />
