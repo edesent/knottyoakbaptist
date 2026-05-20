@@ -55,8 +55,7 @@ export default function Welcome() {
               <p>
                 He took a lost, hopeless teen and began writing a story I never could
                 have imagined. I started coming to church, and as I grew I felt God
-                calling me to Bible college. I came home after graduating Bible college, began to volunteer at the church, then became part of the staff in 2008 later that year, and in
-                2023 I became the pastor — privileged to lead the church I call home.
+                calling me to Bible college. I came home after graduating Bible college, began to volunteer at the church, and then God opened the door to join the staff — and in 2023 I became the pastor, privileged to lead the church I call home.
               </p>
               <p>
                 That&rsquo;s what Jesus does. He meets you right where you are — and
