@@ -68,9 +68,9 @@ export default function GivePage() {
             <div className="bg-paper-warm p-6 rounded-sm">
               <p className="eyebrow text-brass-dark mb-2">In Person</p>
               <p className="text-ink-body leading-relaxed">
-                An offering plate is passed during every Sunday service. If
-                you&rsquo;re visiting, please feel no obligation — we&rsquo;re just
-                glad you&rsquo;re here.
+                All are welcome to give in person. Offering plates are available
+                at the back of the sanctuary on top of the sound booth for all
+                those who would like to freely and sacrificially give.
               </p>
             </div>
           </div>
