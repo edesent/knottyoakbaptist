@@ -10,14 +10,13 @@ export default function Welcome() {
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[4/5] max-w-sm mx-auto lg:max-w-none">
               <div className="absolute -inset-4 bg-forest-800/90 rounded-sm -rotate-2" />
-              <div
-                className="relative w-full h-full rounded-sm overflow-hidden shadow-xl"
-                style={{
-                  backgroundImage: "url('/pastor-justin.png')",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              />
+              <div className="relative w-full h-full rounded-sm overflow-hidden shadow-xl">
+                <img
+                  src="/pastor-justin.png"
+                  alt="Pastor Justin Martin"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
               <div className="absolute -bottom-5 -right-5 bg-paper px-5 py-3 shadow-lg">
                 <p className="eyebrow text-brass-dark">{site.pastor.shortName}</p>
                 <p className="font-serif text-xl text-ink mt-1">Our Pastor</p>
