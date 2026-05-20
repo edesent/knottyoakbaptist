@@ -59,8 +59,8 @@ const ministries: Ministry[] = [
   },
   {
     id: "young-adults",
-    eyebrow: "20s – 30s",
-    title: "Young Adult Ministry",
+    eyebrow: "",
+    title: "Adult Ministry",
     meta: "Monthly & Bi-Monthly",
     description: [
       "Relationship building and social activity are important aspects of the Christian life. Our young adults gather regularly for dinners, bowling, game nights, campfires, and baseball games — and worship together every Sunday.",
