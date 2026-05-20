@@ -31,7 +31,7 @@ export default function MemorialDayPicnicPage() {
               style={{
                 position: "relative",
                 height: "260px",
-                background: "linear-gradient(180deg, #1B3A6B 0%, #2660A4 40%, #71B6E8 85%, #A8D8F0 100%)",
+                background: "linear-gradient(180deg, #4A90D9 0%, #6AAFE6 35%, #90CBF5 65%, #C8E8FA 100%)",
                 overflow: "hidden",
               }}
             >
