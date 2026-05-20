@@ -57,6 +57,15 @@ export default async function Events() {
                   {ev.contact}
                 </p>
               )}
+              {ev.flyer && (
+                <a
+                  href={ev.flyer}
+                  className="mt-5 inline-flex items-center gap-2 text-xs font-semibold tracking-wide uppercase text-forest-700 hover:text-forest-900 transition-colors border-t border-ink-faint/20 pt-4 w-full"
+                >
+                  <span>View Flyer</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              )}
             </article>
           ))}
         </div>
