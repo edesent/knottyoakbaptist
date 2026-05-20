@@ -38,6 +38,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       dateLabel: "May",
       description:
         "Join us for our annual church picnic! Please do not arrive before noon. Bring something to share with everyone.",
+      flyer: "/events/memorial-day-picnic",
     },
     {
       title: "Vacation Bible School",
