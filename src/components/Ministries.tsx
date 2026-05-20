@@ -49,7 +49,7 @@ const ministries = [
   },
   {
     name: "Vacation Bible School",
-    age: "First Week of August",
+    age: "First Full Week of August",
     blurb:
       "A long-loved summer tradition — a full week of Bible teaching, recreation, crafts, and joy, capped by a Saturday Funfair and Parent's Night.",
     href: "/ministries#vbs",
