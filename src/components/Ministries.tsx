@@ -21,8 +21,8 @@ const ministries = [
     accent: "harbor",
   },
   {
-    name: "Young Adult Ministry",
-    age: "20s – 30s",
+    name: "Adult Ministry",
+    age: "",
     blurb:
       "Relationship building and social activity are vital to the Christian life. We gather monthly for dinners, game nights, bowling, baseball games, and campfires — and weekly for worship.",
     href: "/ministries#young-adults",
