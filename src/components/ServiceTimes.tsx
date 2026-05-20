@@ -56,7 +56,7 @@ export default function ServiceTimes() {
         <div className="text-center max-w-2xl mx-auto">
           <p className="eyebrow text-brass-light">The Week with Us</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-white font-medium leading-tight tracking-tight">
-            Gather in worship,
+            Meet together,
             <span className="block italic text-brass-light">open the Word.</span>
           </h2>
           <p className="mt-5 text-forest-100/80 text-lg leading-relaxed">
