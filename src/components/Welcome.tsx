@@ -45,10 +45,9 @@ export default function Welcome() {
                 he belongs.
               </p>
               <p>
-                That teenager was me. I was born and raised in Coventry — a town I&rsquo;ve always loved. I was surrounded by familiar places
-                and familiar people, yet inside I was lost, directionless, and
-                spiritually empty. I had no church background and no idea what I was
-                truly missing.
+                That teenager was me. Surrounded by familiar places and familiar
+                people, yet inside I was lost, directionless, and spiritually empty.
+                I had no church background and no idea what I was truly missing.
               </p>
               <p>
                 Then one day, a childhood friend invited me to a teen game night at
