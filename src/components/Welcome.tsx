@@ -66,7 +66,7 @@ export default function Welcome() {
                 volunteering, later joined the staff, and in 2023 became the
                 pastor — something that still humbles me. God allowed me to return
                 home, serve the church that impacted my life, and invest in the same
-                community where I was born and raised.
+                town where I was born and raised.
               </p>
               <p>
                 So wherever you&rsquo;re coming from — you are welcome here. You
