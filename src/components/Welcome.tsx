@@ -45,18 +45,29 @@ export default function Welcome() {
                 he belongs.
               </p>
               <p>
-                That teenager was me. I was born and raised in Coventry — I love this town. I was surrounded by familiar places and familiar people, yet inside I was directionless and spiritually empty. Then one day I was invited to a teen game night by a childhood friend that attended Knotty Oak Baptist Church. I showed up with nothing but curiosity. What I found was warmth,
-                belonging, and people who genuinely cared. I found a family. Little
-                did I know — God actually found me.
+                That teenager was me. I was born and raised in Coventry — a town and
+                community I&rsquo;ve always loved. I was surrounded by familiar places
+                and familiar people, yet inside I was lost, directionless, and
+                spiritually empty. I had no church background and no idea what I was
+                truly missing.
               </p>
               <p>
-                He took a lost, hopeless teen and began writing a story I never could
-                have imagined. I started coming to church, and as I grew I felt God
-                calling me to Bible college. I came home after graduating Bible college, began to volunteer at the church, and then God opened the door to join the staff — and in 2023 I became the pastor, privileged to lead the church I call home.
+                Then one day, a childhood friend invited me to a teen game night at
+                Knotty Oak Baptist Church. I showed up with nothing but curiosity.
+                What I found was warmth, belonging, and people who genuinely cared.
+                I found a church family. More importantly, I came face to face with
+                the truth of the Gospel, and my life was changed.
               </p>
               <p>
-                That&rsquo;s what Jesus does. He meets you right where you are — and
-                this church is where He met me.
+                The Lord took a lost and hopeless teenager and completely redirected
+                my life. I began attending regularly, growing in my faith, and
+                eventually sensed God calling me into ministry. That calling led me
+                to Bible college, and after graduating I returned home to serve in
+                the very place where God had transformed my life. I started
+                volunteering, later joined the staff, and in 2023 became the
+                pastor — something that still humbles me. God allowed me to return
+                home, serve the church that impacted my life, and invest in the same
+                community where I was born and raised.
               </p>
               <p>
                 So wherever you&rsquo;re coming from — you are welcome here. You
