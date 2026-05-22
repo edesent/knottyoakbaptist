@@ -59,10 +59,7 @@ export default function ServiceTimes() {
             Meet together,
             <span className="block italic text-brass-light">open the Word.</span>
           </h2>
-          <p className="mt-5 text-forest-100/80 text-lg leading-relaxed">
-            Four times each week we set aside everything else to meet together. Come
-            as you are — first-time visitors are always welcome.
-          </p>
+
         </div>
 
         <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
