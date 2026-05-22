@@ -70,16 +70,7 @@ export default function Footer() {
               <li><Link href="/covenant" className="text-forest-100/80 hover:text-brass-light transition-colors">Church Covenant</Link></li>
               <li><Link href="/give" className="text-forest-100/80 hover:text-brass-light transition-colors">Give</Link></li>
               <li><Link href="/#contact" className="text-forest-100/80 hover:text-brass-light transition-colors">Contact</Link></li>
-              <li>
-                <a
-                  href={site.social.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-forest-100/80 hover:text-brass-light transition-colors"
-                >
-                  Facebook ↗
-                </a>
-              </li>
+
             </ul>
           </div>
         </div>
