@@ -29,6 +29,7 @@ export const site = {
 
   social: {
     facebook: "https://www.facebook.com/knottyoakbaptistchurch02816/",
+    youtube: "https://www.youtube.com/@KnottyOakBaptistChurch",
   },
 
   services: [
