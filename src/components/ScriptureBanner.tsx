@@ -53,7 +53,7 @@ export default function ScriptureBanner() {
             </h3>
             <div className="mt-6 h-px bg-gradient-to-r from-brass via-brass-light/60 to-transparent" />
             <p className="mt-6 font-serif italic text-lg md:text-xl text-ink-body leading-relaxed">
-              &ldquo;The Holy Scriptures of the Old and New Testaments — the
+              &ldquo;The Holy Scriptures of the Old and New Testaments, the
               verbally inspired Word of God, infallible and God-breathed, our
               final authority for faith and life.&rdquo;
             </p>
