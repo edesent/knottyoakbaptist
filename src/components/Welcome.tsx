@@ -64,13 +64,13 @@ export default function Welcome() {
                 message. Eventually I came to know Christ.
               </p>
               <p>
-                The Lord took a lost teenager and completely redirected him. I grew
-                in my faith, felt God calling me into ministry, and went to Bible
-                college. When I graduated I came back home to serve in the very
-                place where God had transformed my life. Started as a volunteer,
-                joined the staff, and in 2023 became the pastor. That still humbles
-                me. God brought me full circle, back to the town where I was born
-                and raised.
+                The Lord took me, a lost teenager, and completely redirected my
+                life. I grew in my faith, felt God calling me into ministry, and
+                went to Bible college. When I graduated I came back home to serve
+                in the very place where God had transformed my life. Started as a
+                volunteer, joined the staff, and in 2023 became the pastor. That
+                still humbles me. God brought me full circle, back to the town
+                where I was born and raised.
               </p>
               <p>
                 So wherever you&rsquo;re coming from, you are welcome here. You
