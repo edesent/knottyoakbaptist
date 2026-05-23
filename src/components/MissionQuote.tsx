@@ -17,7 +17,7 @@ export default function MissionQuote() {
         <div className="lg:col-span-8 space-y-6 text-lg text-ink-body leading-relaxed">
           <p>
             We exist to fulfill God&rsquo;s plan for the local church as it is
-            revealed in the New Testament — with a particular focus on{" "}
+            revealed in the New Testament, with a particular focus on{" "}
             <em className="text-ink font-medium">evangelism and discipleship</em>.
           </p>
           <p>
