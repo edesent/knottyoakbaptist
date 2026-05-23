@@ -87,7 +87,7 @@ const ministries: Ministry[] = [
     title: "Ladies Bible Study",
     meta: "Weekly",
     description: [
-      "All ladies are welcome. A warm, rooted study that meets women where they are — come as you are.",
+      "All ladies are welcome. A warm, rooted study that meets women where they are. Come as you are.",
     ],
     highlights: [{ label: "Contact", value: "Crystal Martin · (401) 226-5856" }],
     image: "https://images.unsplash.com/photo-1553729784-e91953dec042?auto=format&fit=crop&w=1400&q=80",
