@@ -75,8 +75,8 @@ export default function MissionPage() {
                   Testament.
                 </p>
                 <p>
-                  We are an Independent Baptist church — unaffiliated with any
-                  denomination or governing body beyond our local congregation —
+                  We are an Independent Baptist church, unaffiliated with any
+                  denomination or governing body beyond our local congregation,
                   devoted to the preaching of the Word, the observance of the
                   ordinances, and the building up of the saints.
                 </p>
