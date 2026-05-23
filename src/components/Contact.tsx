@@ -61,7 +61,7 @@ export default function Contact() {
             <div className="mt-12">
               <p className="text-forest-100/75 text-sm leading-relaxed mb-5 max-w-md">
                 Have a question, prayer request, or want to plan a visit? Send
-                Pastor Justin a quick message — it opens a chat window and he&rsquo;ll
+                Pastor Justin a quick message. It opens a chat window and he&rsquo;ll
                 get back to you.
               </p>
               <MessagePastorButton />
