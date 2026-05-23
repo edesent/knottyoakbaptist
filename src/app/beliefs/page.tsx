@@ -137,7 +137,7 @@ const articles: Article[] = [
         refs: "Rom. 16:17; Eph. 5:11; 2 John 9-11",
       },
       {
-        body: "We believe that this biblical principle of separation extends to the refusal to affiliate or cooperate in ministry with those who maintain open fellowship with apostasy, compromise sound doctrine for the sake of unity, or participate in ecumenical movements that subordinate biblical truth to organizational fellowship. We recognize that biblical love and biblical separation are not in conflict — the faithful warning and withdrawal from error is itself an act of love toward the body of Christ.",
+        body: "We believe that this biblical principle of separation extends to the refusal to affiliate or cooperate in ministry with those who maintain open fellowship with apostasy, compromise sound doctrine for the sake of unity, or participate in ecumenical movements that subordinate biblical truth to organizational fellowship. We recognize that biblical love and biblical separation are not in conflict. The faithful warning and withdrawal from error is itself an act of love toward the body of Christ.",
         refs: "Amos 3:3; 2 Thess. 3:6, 14-15; 2 Tim. 3:5; Titus 3:10",
       },
     ],
