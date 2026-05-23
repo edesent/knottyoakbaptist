@@ -160,7 +160,7 @@ export default async function SermonsPage() {
             </h2>
             <p className="mt-6 text-forest-100/80 text-lg leading-relaxed">
               Streaming is a gift, but the gathered church is a greater one.
-              First-time visitors — please use the second parking lot.
+              First-time visitors, please use the second parking lot.
             </p>
             <div className="mt-10">
               <a
