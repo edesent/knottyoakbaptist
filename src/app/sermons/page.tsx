@@ -55,7 +55,7 @@ export default async function SermonsPage() {
                     Live Now
                   </p>
                   <h2 className="mt-3 font-serif text-3xl md:text-4xl text-white font-medium leading-tight tracking-tight">
-                    Service in progress — join us
+                    Service in progress, join us
                   </h2>
                 </div>
                 <a
