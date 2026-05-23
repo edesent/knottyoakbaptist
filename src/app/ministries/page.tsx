@@ -75,7 +75,7 @@ const ministries: Ministry[] = [
     title: "Men's Bible Study",
     meta: "Weekly",
     description: [
-      "All men are welcome to join our weekly Bible study. Prayer and honest conversation — men sharpening one another in the Word.",
+      "All men are welcome to join our weekly Bible study. Prayer and honest conversation, men sharpening one another in the Word.",
     ],
     highlights: [{ label: "Contact", value: "Pastor Justin · (401) 212-7233" }],
     image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1400&q=80",
