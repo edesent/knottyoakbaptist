@@ -17,7 +17,7 @@ export default async function Events() {
             </h2>
           </div>
           <p className="text-ink-muted text-sm max-w-sm">
-            Every week there&rsquo;s a place for you here. These are the gatherings we don&rsquo;t want you to miss.
+            Each week there&rsquo;s something going on, and we don&rsquo;t want you to miss it.
           </p>
         </div>
 
