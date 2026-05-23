@@ -14,7 +14,7 @@ const ministries = [
     name: "Teen Ministry",
     age: "Grades 7 to 12",
     blurb:
-      "The teenage years are preparation for adulthood — a season for spiritual growth and leadership. Summer missions, VBS leadership, and year-round fellowship activities build deep, lasting friendships.",
+      "The teenage years are preparation for adulthood, a season for spiritual growth and leadership. Summer missions, VBS leadership, and year-round fellowship activities build deep, lasting friendships.",
     href: "/ministries#teens",
     image:
       "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=80",
