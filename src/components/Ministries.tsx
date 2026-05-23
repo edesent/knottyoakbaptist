@@ -5,7 +5,7 @@ const ministries = [
     name: "Children's Ministry",
     age: "Age 4 to 6th Grade",
     blurb:
-      "Children represent the greatest opportunity to make a long-term impact for Christ. Sunday morning and evening chapel with prayer, singing, teaching, crafts, and snacks — plus our annual VBS each August.",
+      "Children represent the greatest opportunity to make a long-term impact for Christ. Sunday morning and evening chapel with prayer, singing, teaching, crafts, and snacks, plus our annual VBS each August.",
     href: "/ministries#children",
     image: "https://images.unsplash.com/flagged/photo-1567116681178-c326fa4e2c8b?auto=format&fit=crop&w=800&q=80",
     accent: "forest",
