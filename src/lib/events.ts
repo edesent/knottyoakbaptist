@@ -27,7 +27,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       when: "Tuesdays · 6:30 PM",
       dayLabel: "Tue",
       description:
-        "All ladies are welcome. Warm fellowship rooted in Scripture — come just as you are.",
+        "All ladies are welcome. Warm fellowship rooted in Scripture, come just as you are.",
       contact: "Crystal Martin · (401) 226-5856",
       recurring: true,
     },
