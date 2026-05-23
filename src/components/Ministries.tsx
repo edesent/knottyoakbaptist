@@ -3,7 +3,7 @@ import Link from "next/link";
 const ministries = [
   {
     name: "Children's Ministry",
-    age: "Age 4 – 6th Grade",
+    age: "Age 4 to 6th Grade",
     blurb:
       "Children represent the greatest opportunity to make a long-term impact for Christ. Sunday morning and evening chapel with prayer, singing, teaching, crafts, and snacks — plus our annual VBS each August.",
     href: "/ministries#children",
