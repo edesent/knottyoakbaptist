@@ -47,10 +47,8 @@ export default function Welcome() {
               <p>
                 And I know that because I lived it. This church took in a lost
                 teenager with no church background and loved him like he belonged.
-                That teenager was me.
-              </p>
-              <p>
-                I felt empty, lost, had no direction and no idea what I was missing.
+                That teenager was me. I felt empty, lost, had no direction and no
+                idea what I was missing.
               </p>
               <p>
                 Then a childhood friend invited me to a teen game night at Knotty
