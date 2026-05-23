@@ -18,7 +18,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       when: "Tuesdays · 6:30 PM",
       dayLabel: "Tue",
       description:
-        "All men are welcome to join our weekly Bible study — a time for the Word, prayer, and fellowship.",
+        "All men are welcome to join our weekly Bible study, a time for the Word, prayer, and fellowship.",
       contact: "Pastor Justin · (401) 212-7233",
       recurring: true,
     },
