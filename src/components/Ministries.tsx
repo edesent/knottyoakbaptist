@@ -24,7 +24,7 @@ const ministries = [
     name: "Adult Ministry",
     age: "",
     blurb:
-      "Relationship building and social activity are vital to the Christian life. We gather monthly for dinners, game nights, bowling, baseball games, and campfires — and weekly for worship.",
+      "Relationship building and social activity are vital to the Christian life. We gather monthly for dinners, game nights, bowling, baseball games, and campfires and weekly for worship.",
     href: "/ministries#young-adults",
     image: "https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=800&q=80",
     accent: "forest",
