@@ -16,15 +16,7 @@ export default function MissionQuote() {
 
         <div className="lg:col-span-8 space-y-6 text-lg text-ink-body leading-relaxed">
           <p>
-            We exist to fulfill God&rsquo;s plan for the local church as it is
-            revealed in the New Testament, with a particular focus on{" "}
-            <em className="text-ink font-medium">evangelism and discipleship</em>.
-          </p>
-          <p>
-            Our worship is informal, yet reverent. Our preaching is thorough, yet
-            practical. We believe the Bible and we seek to make a deep,
-            thorough application of every precept within it, knowing that
-            inward submission leads to outward obedience.
+            We&rsquo;re a Bible-believing church family that loves the Lord, shares the gospel, and believes in making disciples. We want to worship God in spirit and in truth, with sincerity and reverence, because we genuinely want to honor Him. If that&rsquo;s what you&rsquo;re looking for, you&rsquo;ll feel right at home at Knotty Oak.
           </p>
           <p className="font-serif italic text-xl text-forest-800 border-l-2 border-brass/60 pl-6 mt-8">
             &ldquo;Grow in grace, and in the knowledge of our Lord and Saviour
