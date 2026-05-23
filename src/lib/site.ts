@@ -50,7 +50,7 @@ export const site = {
       label: "Ladies Bible Study",
       when: "Tuesday · 6:30 PM",
       contact: "Crystal Martin · (401) 226-5856",
-      blurb: "All ladies are welcome. Warm fellowship rooted in Scripture — come as you are.",
+      blurb: "All ladies are welcome. Warm fellowship rooted in Scripture, come as you are.",
     },
   ],
 } as const;
