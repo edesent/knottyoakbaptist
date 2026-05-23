@@ -285,7 +285,7 @@ export default function BeliefsPage() {
             </h2>
             <p className="mt-6 text-forest-100/80 text-lg leading-relaxed">
               Our Statement of Faith describes what we believe. Our Church
-              Covenant describes how we walk it out — together.
+              Covenant describes how we walk it out together.
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Link
