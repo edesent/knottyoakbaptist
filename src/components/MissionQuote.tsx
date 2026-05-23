@@ -22,7 +22,7 @@ export default function MissionQuote() {
           </p>
           <p>
             Our worship is informal, yet reverent. Our preaching is thorough, yet
-            practical. We believe the Bible — and we seek to make a deep,
+            practical. We believe the Bible and we seek to make a deep,
             thorough application of every precept within it, knowing that
             inward submission leads to outward obedience.
           </p>
