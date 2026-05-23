@@ -15,7 +15,7 @@ export default function NotFound() {
             Lost in the woods?
           </h1>
           <p className="mt-6 text-lg text-ink-body leading-relaxed">
-            We can&rsquo;t find the page you&rsquo;re looking for — but we&rsquo;d
+            We can&rsquo;t find the page you&rsquo;re looking for, but we&rsquo;d
             still love to see you this Sunday.
           </p>
           <Link
