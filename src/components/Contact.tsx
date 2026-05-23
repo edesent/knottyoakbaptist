@@ -19,7 +19,7 @@ export default function Contact() {
             </h2>
             <p className="mt-6 text-forest-100/80 text-lg leading-relaxed">
               Whether you have a question, need prayer, or just want to let us know
-              you&rsquo;re planning a visit — we&rsquo;re glad to hear from you.
+              you&rsquo;re planning a visit, we&rsquo;re glad to hear from you.
             </p>
 
             <dl className="mt-10 space-y-6">
