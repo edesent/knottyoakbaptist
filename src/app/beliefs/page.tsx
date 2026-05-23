@@ -175,7 +175,7 @@ const articles: Article[] = [
         refs: "Gen. 1:27; Psalm 139:13-14; Matt. 19:4",
       },
       {
-        body: "We believe that all sexual relations outside of biblical marriage — including fornication, adultery, and homosexuality — are sinful and contrary to the will of God. We hold these convictions with compassion toward all people, affirming that the grace of God in Christ is sufficient for the forgiveness and transformation of any sin.",
+        body: "We believe that all sexual relations outside of biblical marriage, including fornication, adultery, and homosexuality, are sinful and contrary to the will of God. We hold these convictions with compassion toward all people, affirming that the grace of God in Christ is sufficient for the forgiveness and transformation of any sin.",
         refs: "Rom. 1:26-27; 1 Cor. 6:9-11, 18-20; 1 Thess. 4:3-5",
       },
     ],
