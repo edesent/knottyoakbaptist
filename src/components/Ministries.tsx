@@ -42,7 +42,7 @@ const ministries = [
     name: "Ladies Bible Study",
     age: "Tuesday · 6:30 PM",
     blurb:
-      "All ladies are welcome — warm fellowship rooted in Scripture. Come as you are. Contact Crystal Martin at (401) 226-5856.",
+      "All ladies are welcome, warm fellowship rooted in Scripture. Come as you are. Contact Crystal Martin at (401) 226-5856.",
     href: "/ministries#ladies",
     image: "https://images.unsplash.com/photo-1553729784-e91953dec042?auto=format&fit=crop&w=800&q=80",
     accent: "forest",
