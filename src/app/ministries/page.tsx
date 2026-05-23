@@ -28,7 +28,7 @@ const ministries: Ministry[] = [
     title: "Children's Ministry",
     meta: "Sunday Mornings & Evenings",
     description: [
-      "Children represent the greatest opportunity to make a long-term impact in our world for Christ. Our Children's Chapel meets every Sunday — morning and evening — with prayer, singing, age-grouped instruction, crafts, and refreshments.",
+      "Children represent the greatest opportunity to make a long-term impact in our world for Christ. Our Children's Chapel meets every Sunday, morning and evening, with prayer, singing, age-grouped instruction, crafts, and refreshments.",
       "Children begin together, then split into classroom groups. On Sunday evenings they join the adults for worship before dismissing to their classes.",
     ],
     highlights: [
