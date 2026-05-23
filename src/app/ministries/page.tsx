@@ -41,7 +41,7 @@ const ministries: Ministry[] = [
   },
   {
     id: "teens",
-    eyebrow: "Grades 7 – 12",
+    eyebrow: "Grades 7 to 12",
     title: "Teen Ministry",
     meta: "Year-Round",
     description: [
