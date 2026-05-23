@@ -40,42 +40,47 @@ export default function Welcome() {
 
             <div className="mt-8 space-y-5 text-lg text-ink-body leading-relaxed max-w-2xl">
               <p>
-                Our church is a family. Not a building — a family. The kind that
-                takes in a lost teenager with no church background and loves him like
-                he belongs.
+                Our church is a family. The kind that takes in a lost teenager with
+                no church background and loves him like he belongs.
               </p>
               <p>
-                That teenager was me. Surrounded by familiar places and familiar
-                people, yet inside I was lost, directionless, and spiritually empty.
-                I had no idea what I was truly missing.
+                That teenager was me. I felt empty, lost, had no direction and no
+                idea what I was missing.
               </p>
               <p>
-                Then one day, a childhood friend invited me to a teen game night at
-                Knotty Oak Baptist Church. I showed up with nothing but curiosity.
-                What I found was warmth, belonging, and people who genuinely cared.
-                I found a church family. More importantly, I came face to face with
-                the truth of the Gospel, and my life was changed.
+                Then a childhood friend invited me to a teen game night at Knotty
+                Oak Baptist Church. I met some awesome people and made some friends.
+                Eventually I went to a Sunday morning service and found the people
+                there to be very friendly. Very sincere. Something was different
+                about them, different than anything I had ever experienced. There was
+                warmth. There was real happiness. And I walked away with a sense of
+                belonging, even though these people barely knew me.
               </p>
               <p>
-                The Lord took a lost and hopeless teenager and completely redirected
-                my life. I began attending regularly, growing in my faith, and
-                eventually sensed God calling me into ministry. That calling led me
-                to Bible college, and after graduating I returned home to serve in
-                the very place where God had transformed my life. I started
-                volunteering, later joined the staff, and in 2023 became the
-                pastor — something that still humbles me. God allowed me to return
-                home, serve the church that impacted my life, and invest in the same
-                town where I was born and raised.
+                I started coming sporadically. But each time I walked through the
+                door I saw that same warmth and sincerity, and because of that there
+                was trust. I began to really listen to what was being preached from
+                the pulpit. The way these people lived brought credibility to the
+                message. Eventually I came to know Christ.
               </p>
               <p>
-                So wherever you&rsquo;re coming from — you are welcome here. You
+                The Lord took a lost teenager and completely redirected him. I grew
+                in my faith, felt God calling me into ministry, and went to Bible
+                college. When I graduated I came back home to serve in the very
+                place where God had transformed my life. Started as a volunteer,
+                joined the staff, and in 2023 became the pastor. That still humbles
+                me. God brought me full circle, back to the town where I was born
+                and raised.
+              </p>
+              <p>
+                So wherever you&rsquo;re coming from, you are welcome here. You
                 have a place to call home.
               </p>
             </div>
 
             <div className="mt-10 flex flex-wrap items-center gap-6">
               <p className="font-serif italic text-xl text-ink">
-                — {site.pastor.name}
+                {site.pastor.name}
               </p>
               <div className="h-5 w-px bg-ink-faint" />
               <a
