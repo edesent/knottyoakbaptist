@@ -33,7 +33,7 @@ const ministries = [
     name: "Men's Bible Study",
     age: "Tuesday · 6:30 PM",
     blurb:
-      "All men are welcome — a time to study Scripture, pray together, and sharpen one another in the Word. Contact Pastor Justin at (401) 212-7233.",
+      "All men are welcome, a time to study Scripture, pray together, and sharpen one another in the Word. Contact Pastor Justin at (401) 212-7233.",
     href: "/ministries#mens",
     image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=800&q=80",
     accent: "harbor",
