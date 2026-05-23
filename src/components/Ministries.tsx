@@ -78,7 +78,7 @@ export default function Ministries() {
             <span className="italic text-forest-800"> season of life.</span>
           </h2>
           <p className="mt-6 text-lg text-ink-body leading-relaxed">
-            From children to senior saints, we come together for real fellowship and to open the Word of God. We believe it&rsquo;s the Word of God that brings people together and changes lives. You&rsquo;ll find a place here.
+            From children to senior saints, we come together for real fellowship and to open the Scriptures. We believe it&rsquo;s the Word of God that brings people together and changes lives. You&rsquo;ll find a place here.
           </p>
         </div>
 
