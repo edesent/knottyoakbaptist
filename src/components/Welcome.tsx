@@ -32,20 +32,25 @@ export default function Welcome() {
             </div>
 
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-ink font-medium leading-[1.05] tracking-tight">
-              Come, find rest
+              We exist for one reason.
               <span className="block italic text-forest-800 mt-1">
-                among friends.
+                To point people to Jesus Christ.
               </span>
             </h2>
 
             <div className="mt-8 space-y-5 text-lg text-ink-body leading-relaxed max-w-2xl">
               <p>
-                Our church is a family. The kind that takes in a lost teenager with
-                no church background and loves him like he belongs.
+                As the pastor of Knotty Oak, that&rsquo;s always been the heartbeat
+                of this church. Everything else, the fellowship, the belonging, the
+                family you&rsquo;ll find here, that all flows out of that.
               </p>
               <p>
-                That teenager was me. I felt empty, lost, had no direction and no
-                idea what I was missing.
+                And I know that because I lived it. This church took in a lost
+                teenager with no church background and loved him like he belonged.
+                That teenager was me.
+              </p>
+              <p>
+                I felt empty, lost, had no direction and no idea what I was missing.
               </p>
               <p>
                 Then a childhood friend invited me to a teen game night at Knotty
