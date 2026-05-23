@@ -14,17 +14,17 @@ const beliefs = [
   {
     heading: "The Word of God",
     body:
-      "We not only believe the Bible — we seek to make a deep and thorough application of every precept within it. Scripture is our authority for faith and practice.",
+      "We not only believe the Bible, we seek to make a deep and thorough application of every precept within it. Scripture is our authority for faith and practice.",
   },
   {
     heading: "Evangelism & Discipleship",
     body:
-      "Everything we do should be to the glory of God, with a particular focus on evangelism and discipleship — calling sinners to Christ and building saints up in Him.",
+      "Everything we do should be to the glory of God, with a particular focus on evangelism and discipleship, calling sinners to Christ and building saints up in Him.",
   },
   {
     heading: "Worship that is Reverent, yet Informal",
     body:
-      "Our worship is informal, yet reverent. We sing hymns and spiritual songs. Our preaching and teaching are thorough, yet practical — meeting believers and seekers where they are.",
+      "Our worship is informal, yet reverent. We sing hymns and spiritual songs. Our preaching and teaching are thorough, yet practical, meeting believers and seekers where they are.",
   },
   {
     heading: "Inward Submission, Outward Obedience",
@@ -138,7 +138,7 @@ export default function MissionPage() {
             </h2>
             <p className="mt-6 text-harbor-100/80 text-lg leading-relaxed">
               The warmest welcome is the one you experience in person. Join us this
-              Sunday — we&rsquo;d love to meet you.
+              Sunday, we&rsquo;d love to meet you.
             </p>
             <div className="mt-10">
               <a
