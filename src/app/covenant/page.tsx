@@ -17,7 +17,7 @@ const engagements = [
   "That we will endeavor to bring up such as may at any time be under our care in the nurture and admonition of the Lord.",
   "That by a pure and lovable example we will strive to win our kindred and acquaintances to the Savior, and that we will share in the burdens and sorrows of one another.",
   "That we will seek God's aid to enable us to live watchfully and circumspectly in this world, by denying ungodliness and worldly lusts, and remembering that as we have voluntarily been buried by baptism and raised up from that emblematic grave, so there is upon us a special obligation to lead a new and holy life.",
-  "That we will strive together for the support of a faithful, evangelical ministry among us, and that through our life — amidst evil report and good report — we will seek to live to the glory of Him who has called us out of darkness and into His marvelous light.",
+  "That we will strive together for the support of a faithful, evangelical ministry among us, and that through our life, amidst evil report and good report, we will seek to live to the glory of Him who has called us out of darkness and into His marvelous light.",
 ];
 
 export default function CovenantPage() {
