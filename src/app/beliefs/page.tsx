@@ -72,10 +72,7 @@ const articles: Article[] = [
         body: "We believe that God is sovereign in the bestowal of spiritual gifts to every believer. God uniquely uses evangelists, pastors, and teachers to equip believers in the assembly in order that they can do the work of the ministry.",
         refs: "Rom. 12:3-8; 1 Cor. 12:4-11, 28; Eph. 4:7-12",
       },
-      {
-        body: "We believe that the sign gifts of the Holy Spirit, such as speaking in tongues and the gift of healing were temporary. We believe that speaking in tongues was never the common or necessary sign of the baptism or filling of the Holy Spirit and that ultimate deliverance of the body from sickness or death awaits the consummation of our salvation in the resurrection, though God frequently chooses to answer the prayers of believers for physical healing.",
-        refs: "1 Cor. 1:22, 13:8, 14:21-22; Heb. 2:4; James 5:13-16",
-      },
+
     ],
   },
   {
