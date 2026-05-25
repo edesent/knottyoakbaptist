@@ -22,7 +22,7 @@ const beliefs = [
       "Everything we do should be to the glory of God, with a particular focus on evangelism and discipleship, calling sinners to Christ and building saints up in Him.",
   },
   {
-    heading: "Worship that is Reverent and Informal",
+    heading: "Worship From the Heart",
     body:
       "Our worship is informal and reverent. We sing hymns and spiritual songs. Our preaching and teaching are thorough and practical, meeting believers and seekers where they are.",
   },
