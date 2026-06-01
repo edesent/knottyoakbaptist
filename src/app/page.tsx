@@ -64,7 +64,6 @@ export default function Home() {
         <Hero />
         <Welcome />
         <ServiceTimes />
-        <MissionQuote />
         <Events />
         <Contact />
       </main>
