@@ -66,7 +66,6 @@ export default function Home() {
         <Welcome />
         <ServiceTimes />
         <MissionQuote />
-        <ScriptureBanner />
         <Events />
         <Contact />
       </main>
