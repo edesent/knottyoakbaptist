@@ -66,7 +66,6 @@ export default function Home() {
         <Hero />
         <Welcome />
         <ServiceTimes />
-        <Ministries />
         <MissionQuote />
         <ScriptureBanner />
         <Events />
