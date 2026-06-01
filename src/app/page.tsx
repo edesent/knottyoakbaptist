@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import ServiceTimes from "@/components/ServiceTimes";
-import Ministries from "@/components/Ministries";
 import MissionQuote from "@/components/MissionQuote";
 import ScriptureBanner from "@/components/ScriptureBanner";
 import Events from "@/components/Events";
