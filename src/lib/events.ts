@@ -32,15 +32,6 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       recurring: true,
     },
     {
-      title: "Memorial Day Church Picnic",
-      when: "Monday, May 25 · 12:00 PM",
-      dayLabel: "25",
-      dateLabel: "May",
-      description:
-        "Join us for our annual church picnic! Please do not arrive before noon. Bring something to share with everyone.",
-      flyer: "/events/memorial-day-picnic",
-    },
-    {
       title: "Vacation Bible School",
       when: "First full week of August",
       dayLabel: "Aug",
