@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/#welcome", label: "Welcome" },
   { href: "/ministries", label: "Ministries" },
   { href: "/sermons", label: "Sermons" },
+  { href: "/beliefs", label: "Beliefs" },
   { href: "/mission", label: "Mission" },
   { href: "/#events", label: "Events" },
   { href: "/give", label: "Give" },
