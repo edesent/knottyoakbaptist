@@ -85,7 +85,7 @@ export default function Hero() {
           {/* Social Icons */}
           <div className="rise-in delay-700 mt-10 flex items-center gap-5">
             <a
-              href="https://www.facebook.com/knottyoakbaptistchurch"
+              href={site.social.facebook}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Knotty Oak Baptist Church on Facebook"
