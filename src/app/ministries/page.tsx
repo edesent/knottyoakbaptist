@@ -215,8 +215,11 @@ export default function MinistriesPage() {
                         >
                           <dt className="eyebrow text-brass-dark">{h.label}</dt>
                           <dd className="mt-1 font-serif text-lg text-ink">{h.value}</dd>
+                          {h.note && (
+                            <p className="mt-2 text-sm text-ink-body/80">{h.note}</p>
+                          )}
                           {h.links && (
-                            <div className="mt-2 flex flex-col gap-1">
+                            <div className={`${h.note ? "mt-1" : "mt-2"} flex flex-col gap-1`}>
                               {h.links.map((l) => (
                                 <a
                                   key={l.href}
