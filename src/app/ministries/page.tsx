@@ -53,7 +53,11 @@ const ministries: Ministry[] = [
       {
         label: "Teen Camp",
         value: "June 22 to 26, 2026",
-        links: [{ label: "Register", href: "https://www.nebtc.org/register/teen-camp/" }],
+        note: "For more information, go to the website.",
+        links: [
+          { label: "New England Baptist Teen Camp", href: "https://www.nebtc.org/" },
+          { label: "Register", href: "https://www.nebtc.org/register/teen-camp/" },
+        ],
       },
       {
         label: "Summer Missions",
