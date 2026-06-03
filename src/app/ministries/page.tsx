@@ -55,7 +55,7 @@ const ministries: Ministry[] = [
         value: "June 22 to 26, 2026",
         link: { label: "Register", href: "https://www.nebtc.org/register/teen-camp/" },
       },
-      { label: "Summer Missions", value: "Bridgeport, CT" },
+      { label: "Summer Missions", value: "Bridgeport, CT · Aug 17 to 21, 2026" },
       { label: "Teen VBS", value: "Grades 7 to 12 · First Full Week of August" },
       { label: "Fellowship Nights", value: "Monthly" },
     ],
