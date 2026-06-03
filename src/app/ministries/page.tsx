@@ -211,15 +211,20 @@ export default function MinistriesPage() {
                         >
                           <dt className="eyebrow text-brass-dark">{h.label}</dt>
                           <dd className="mt-1 font-serif text-lg text-ink">{h.value}</dd>
-                          {h.link && (
-                            <a
-                              href={h.link.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="mt-2 inline-block text-sm font-semibold text-forest-800 underline underline-offset-2 hover:text-forest-600 transition-colors"
-                            >
-                              {h.link.label}
-                            </a>
+                          {h.links && (
+                            <div className="mt-2 flex flex-col gap-1">
+                              {h.links.map((l) => (
+                                <a
+                                  key={l.href}
+                                  href={l.href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-block text-sm font-semibold text-forest-800 underline underline-offset-2 hover:text-forest-600 transition-colors"
+                                >
+                                  {l.label}
+                                </a>
+                              ))}
+                            </div>
                           )}
                         </div>
                       ))}
