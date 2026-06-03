@@ -16,7 +16,7 @@ type Ministry = {
   title: string;
   meta: string;
   description: string[];
-  highlights?: { label: string; value: string; links?: { label: string; href: string }[] }[];
+  highlights?: { label: string; value: string; note?: string; links?: { label: string; href: string }[] }[];
   image: string;
   tone: "forest" | "harbor";
 };
