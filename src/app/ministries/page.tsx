@@ -46,7 +46,7 @@ const ministries: Ministry[] = [
     meta: "Year-Round",
     description: [
       "The teenage years are meant to prepare oneself for adulthood. We give students real opportunities for spiritual growth, leadership development, and Christian formation, alongside friendships that last well beyond high school.",
-      "Our teens help lead VBS each August, travel to Bridgeport, Connecticut to help City Baptist Church and New England for Christ with the Bridgeport Gospel Crusade, and gather regularly for fellowship.",
+      "Our teens help lead VBS each August, travel to Bridgeport, Connecticut to help City Baptist Church and New England for Christ Ministries with the Bridgeport Gospel Crusade, and gather regularly for fellowship.",
       "Every June our teens go up to New England Baptist Teen Camp for a week of preaching, competition, and fellowship. It's one of the highlights of their year.",
     ],
     highlights: [
