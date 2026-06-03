@@ -51,7 +51,7 @@ const ministries: Ministry[] = [
       "Every June our teens go up to New England Baptist Teen Camp for a week of preaching, competition, and fellowship. It's one of the highlights of their year.",
     ],
     highlights: [
-      { label: "Teen Camp", value: "Late June" },
+      { label: "Teen Camp", value: "June 22 to 26, 2026" },
       { label: "Summer Missions", value: "July" },
       { label: "Teen VBS", value: "Grades 7 to 12 · First Full Week of August" },
       { label: "Fellowship Nights", value: "Monthly" },
