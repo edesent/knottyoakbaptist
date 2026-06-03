@@ -17,6 +17,7 @@ type Ministry = {
   meta: string;
   description: string[];
   highlights?: { label: string; value: string }[];
+  link?: { label: string; href: string };
   image: string;
   tone: "forest" | "harbor";
 };
@@ -47,12 +48,15 @@ const ministries: Ministry[] = [
     description: [
       "The teenage years are meant to prepare oneself for adulthood. We give students real opportunities for spiritual growth, leadership development, and Christian formation, alongside friendships that last well beyond high school.",
       "Our teens help lead VBS each August, join the church's July missions trip (tract distribution and door-to-door outreach at partner churches), and gather regularly for fellowship.",
+      "Every June our teens go up to New England Baptist Teen Camp for a week of preaching, competition, and fellowship. It's one of the highlights of their year.",
     ],
     highlights: [
+      { label: "Teen Camp", value: "Late June" },
       { label: "Summer Missions", value: "July" },
       { label: "Teen VBS", value: "Grades 7 to 12 · First Full Week of August" },
       { label: "Fellowship Nights", value: "Monthly" },
     ],
+    link: { label: "See Camp Details", href: "https://www.nebtc.org/" },
     image:
       "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1400&q=80",
     tone: "harbor",
@@ -201,6 +205,17 @@ export default function MinistriesPage() {
                         </div>
                       ))}
                     </dl>
+                  )}
+
+                  {m.link && (
+                    <a
+                      href={m.link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-8 inline-flex items-center gap-2 text-forest-800 font-semibold text-sm tracking-wide uppercase border-b-2 border-brass pb-1 hover:text-forest-600 transition-colors"
+                    >
+                      {m.link.label}
+                    </a>
                   )}
                 </div>
               </div>
