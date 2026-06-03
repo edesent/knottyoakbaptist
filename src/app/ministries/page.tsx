@@ -16,8 +16,7 @@ type Ministry = {
   title: string;
   meta: string;
   description: string[];
-  highlights?: { label: string; value: string }[];
-  link?: { label: string; href: string };
+  highlights?: { label: string; value: string; link?: { label: string; href: string } }[];
   image: string;
   tone: "forest" | "harbor";
 };
@@ -51,12 +50,15 @@ const ministries: Ministry[] = [
       "Every June our teens go up to New England Baptist Teen Camp for a week of preaching, competition, and fellowship. It's one of the highlights of their year.",
     ],
     highlights: [
-      { label: "Teen Camp", value: "June 22 to 26, 2026" },
+      {
+        label: "Teen Camp",
+        value: "June 22 to 26, 2026",
+        link: { label: "Register", href: "https://www.nebtc.org/register/teen-camp/" },
+      },
       { label: "Summer Missions", value: "July" },
       { label: "Teen VBS", value: "Grades 7 to 12 · First Full Week of August" },
       { label: "Fellowship Nights", value: "Monthly" },
     ],
-    link: { label: "See Camp Details", href: "https://www.nebtc.org/" },
     image:
       "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1400&q=80",
     tone: "harbor",
@@ -202,20 +204,19 @@ export default function MinistriesPage() {
                         >
                           <dt className="eyebrow text-brass-dark">{h.label}</dt>
                           <dd className="mt-1 font-serif text-lg text-ink">{h.value}</dd>
+                          {h.link && (
+                            <a
+                              href={h.link.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="mt-2 inline-block text-sm font-semibold text-forest-800 underline underline-offset-2 hover:text-forest-600 transition-colors"
+                            >
+                              {h.link.label}
+                            </a>
+                          )}
                         </div>
                       ))}
                     </dl>
-                  )}
-
-                  {m.link && (
-                    <a
-                      href={m.link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-8 inline-flex items-center gap-2 text-forest-800 font-semibold text-sm tracking-wide uppercase border-b-2 border-brass pb-1 hover:text-forest-600 transition-colors"
-                    >
-                      {m.link.label}
-                    </a>
                   )}
                 </div>
               </div>
