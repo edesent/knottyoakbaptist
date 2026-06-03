@@ -46,7 +46,7 @@ const ministries: Ministry[] = [
     meta: "Year-Round",
     description: [
       "The teenage years are meant to prepare oneself for adulthood. We give students real opportunities for spiritual growth, leadership development, and Christian formation, alongside friendships that last well beyond high school.",
-      "Our teens help lead VBS each August, join the church's July missions trip (tract distribution and door-to-door outreach at partner churches), and gather regularly for fellowship.",
+      "Our teens help lead VBS each August, travel to Bridgeport, Connecticut each July to help City Baptist Church with the Baptist Crusade, and gather regularly for fellowship.",
       "Every June our teens go up to New England Baptist Teen Camp for a week of preaching, competition, and fellowship. It's one of the highlights of their year.",
     ],
     highlights: [
@@ -55,7 +55,7 @@ const ministries: Ministry[] = [
         value: "June 22 to 26, 2026",
         link: { label: "Register", href: "https://www.nebtc.org/register/teen-camp/" },
       },
-      { label: "Summer Missions", value: "July" },
+      { label: "Summer Missions", value: "Bridgeport, CT" },
       { label: "Teen VBS", value: "Grades 7 to 12 · First Full Week of August" },
       { label: "Fellowship Nights", value: "Monthly" },
     ],
