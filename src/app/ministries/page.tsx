@@ -53,9 +53,16 @@ const ministries: Ministry[] = [
       {
         label: "Teen Camp",
         value: "June 22 to 26, 2026",
-        link: { label: "Register", href: "https://www.nebtc.org/register/teen-camp/" },
+        links: [{ label: "Register", href: "https://www.nebtc.org/register/teen-camp/" }],
       },
-      { label: "Summer Missions", value: "Bridgeport, CT · Aug 17 to 21, 2026" },
+      {
+        label: "Summer Missions",
+        value: "Bridgeport, CT · Aug 17 to 21, 2026",
+        links: [
+          { label: "City Baptist Church", href: "https://citybaptist.com/" },
+          { label: "Northeast for Christ Ministries", href: "https://northeastforchrist.com/" },
+        ],
+      },
       { label: "Teen VBS", value: "Grades 7 to 12 · First Full Week of August" },
       { label: "Fellowship Nights", value: "Monthly" },
     ],
