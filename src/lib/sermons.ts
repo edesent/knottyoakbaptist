@@ -51,14 +51,39 @@ export async function fetchSermons(): Promise<Sermon[]> {
   }
 }
 
+const TZ = "America/New_York";
+
+function weekdayShortET(d: Date): string {
+  return new Intl.DateTimeFormat("en-US", { weekday: "short", timeZone: TZ }).format(d);
+}
+
+// Knotty Oak holds services on Sundays and Wednesdays. Recordings are usually
+// uploaded the next morning, which can make a Sunday-night sermon archive
+// as "Monday" if you go by the upload timestamp. Snap the display date to
+// the most recent prior service day (in ET) so labels match when the service
+// actually happened.
+function snapToServiceDay(d: Date): Date {
+  for (let i = 0; i < 7; i++) {
+    const test = new Date(d.getTime() - i * 24 * 60 * 60 * 1000);
+    const wd = weekdayShortET(test);
+    if (wd === "Sun" || wd === "Wed") return test;
+  }
+  return d;
+}
+
 export function formatSermonDate(iso: string): string {
-  const d = new Date(iso);
-  return d.toLocaleDateString("en-US", {
+  const snapped = snapToServiceDay(new Date(iso));
+  return snapped.toLocaleDateString("en-US", {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: TZ,
   });
+}
+
+export function formatSermonShortWeekday(iso: string): string {
+  return weekdayShortET(snapToServiceDay(new Date(iso)));
 }
 
 // Returns the video ID of an active live broadcast, or null if idle.

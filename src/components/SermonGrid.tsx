@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import type { Sermon } from "@/lib/sermons";
-import { formatSermonDate } from "@/lib/sermons";
+import { formatSermonDate, formatSermonShortWeekday } from "@/lib/sermons";
 
 type Props = {
   sermons: Sermon[];
@@ -58,9 +58,7 @@ export default function SermonGrid({ sermons }: Props) {
               </div>
               <div className="p-5">
                 <p className="text-[0.65rem] font-semibold tracking-[0.28em] uppercase text-brass-dark">
-                  {new Date(s.published).toLocaleDateString("en-US", {
-                    weekday: "short",
-                  })}
+                  {formatSermonShortWeekday(s.published)}
                 </p>
                 <h3 className="mt-2 font-serif text-xl text-ink font-medium leading-snug">
                   {formatSermonDate(s.published)}
