@@ -49,6 +49,14 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       recurring: true,
     },
     {
+      title: "Church Softball",
+      when: "Mondays · 6:45 PM",
+      dayLabel: "Mon",
+      description:
+        "Come watch our softball team play every Monday night starting at 6:45 PM. Bring the family and cheer us on!",
+      recurring: true,
+    },
+    {
       title: "Vacation Bible School",
       when: "First full week of August",
       dayLabel: "Aug",
