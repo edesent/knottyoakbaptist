@@ -19,7 +19,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       dayLabel: "10",
       dateLabel: "June",
       description:
-        "Ladies, come for a morning of good food, time in the Word, and warm fellowship. Bring a friend and join us.",
+        "Ladies, come for a morning of good food, time in the Word, and warm fellowship. We'll meet in the lower building. Bring a friend and join us.",
     },
     {
       title: "Children's Day",
