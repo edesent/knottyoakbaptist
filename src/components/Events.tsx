@@ -25,8 +25,16 @@ export default async function Events() {
           {events.map((ev) => (
             <article
               key={ev.title}
-              className="relative bg-white border border-ink-faint/15 rounded-sm p-8 hover:border-forest-600/40 hover:shadow-lg transition-all"
+              className="relative overflow-hidden bg-white border border-ink-faint/15 rounded-sm p-8 hover:border-forest-600/40 hover:shadow-lg transition-all"
             >
+              {ev.bgIcon && (
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none select-none absolute -bottom-8 -right-6 text-[9rem] leading-none opacity-[0.07] rotate-12 grayscale"
+                >
+                  {ev.bgIcon}
+                </span>
+              )}
               <div className="flex items-start justify-between mb-5">
                 <div className="flex flex-col items-center text-center bg-forest-900 text-brass-light w-16 py-3 rounded-sm">
                   <span className="text-[0.6rem] font-semibold tracking-[0.2em] uppercase">
