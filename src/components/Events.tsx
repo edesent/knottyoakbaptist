@@ -30,7 +30,7 @@ export default async function Events() {
               {ev.bgIcon && (
                 <span
                   aria-hidden="true"
-                  className="pointer-events-none select-none absolute -bottom-8 -right-6 text-[9rem] leading-none opacity-[0.14] rotate-12 grayscale"
+                  className="pointer-events-none select-none absolute -bottom-8 -right-6 text-[9rem] leading-none opacity-[0.14] rotate-12"
                 >
                   {ev.bgIcon}
                 </span>
