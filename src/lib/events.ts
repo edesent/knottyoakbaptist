@@ -7,6 +7,8 @@ export type ChurchEvent = {
   contact?: string;
   recurring?: boolean;
   flyer?: string;
+  link?: string;
+  linkLabel?: string;
 };
 
 // Placeholder events — wire up to Google Sheets later by replacing `getEvents()`.
