@@ -40,9 +40,9 @@ export default function Welcome() {
 
             <div className="mt-8 space-y-5 text-lg text-ink-body leading-relaxed max-w-2xl">
               <p>
-                As the pastor of Knotty Oak, that&rsquo;s always been the heartbeat
-                of this church. Everything else, the fellowship, the belonging, the
-                family you&rsquo;ll find here, that all flows out of that.
+                As the pastor of Knotty Oak Baptist Church, I want to welcome you
+                to our church. Our church is a place where you&rsquo;ll find real
+                belonging, a family that loves God and loves one another.
               </p>
               <p>
                 And I know that because I lived it. This church took in a lost
