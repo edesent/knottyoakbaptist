@@ -32,9 +32,9 @@ export default function Welcome() {
             </div>
 
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-ink font-medium leading-[1.05] tracking-tight">
-              We exist for one reason.
+              Welcome to
               <span className="block italic text-forest-800 mt-1">
-                To point people to Jesus Christ.
+                Knotty Oak Baptist Church.
               </span>
             </h2>
 
