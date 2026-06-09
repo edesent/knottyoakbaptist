@@ -19,7 +19,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       dayLabel: "14",
       dateLabel: "June",
       description:
-        "Bring the whole family for a morning made just for the kids. We'll have games, a Bible story, a bounce house, and plenty more. All children are welcome.",
+        "Bring the whole family for a morning made just for the kids. We'll have games, a Bible story, a bounce house, and plenty more. Open to kids ages K through 6.",
       flyer: "/1442.png",
     },
     {
