@@ -66,6 +66,15 @@ export default async function Events() {
                   <span aria-hidden="true">→</span>
                 </a>
               )}
+              {ev.link && (
+                <a
+                  href={ev.link}
+                  className="mt-5 inline-flex items-center gap-2 text-xs font-semibold tracking-wide uppercase text-forest-700 hover:text-forest-900 transition-colors border-t border-ink-faint/20 pt-4 w-full"
+                >
+                  <span>{ev.linkLabel ?? "Learn More"}</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              )}
             </article>
           ))}
         </div>
