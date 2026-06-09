@@ -14,6 +14,14 @@ export type ChurchEvent = {
 export async function getEvents(): Promise<ChurchEvent[]> {
   return [
     {
+      title: "Children's Day",
+      when: "Sunday, June 14 · 10:00 AM to 12:00 PM",
+      dayLabel: "14",
+      dateLabel: "June",
+      description:
+        "Bring the whole family for a morning made just for the kids. We'll have games, a Bible story, a bounce house, and plenty more. All children are welcome.",
+    },
+    {
       title: "Men's Bible Study",
       when: "Tuesdays · 6:30 PM",
       dayLabel: "Tue",
