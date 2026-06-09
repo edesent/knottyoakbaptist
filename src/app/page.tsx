@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
@@ -68,6 +69,12 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <Script
+        src="https://slackwebsitechat.vercel.app/widget/wbc-chat.js"
+        data-api="https://slackwebsitechat.vercel.app"
+        data-key="wbc_41a573f5963a32723cdd6f400b26d57a773b45bb7190368b"
+        strategy="afterInteractive"
+      />
     </>
   );
 }

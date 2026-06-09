@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
-import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -92,12 +91,6 @@ export default function RootLayout({
     <html lang="en" className={`${cormorant.variable} ${inter.variable} antialiased`}>
       <body className="min-h-screen flex flex-col bg-paper text-ink-body">
         {children}
-        <Script
-          src="https://slackwebsitechat.vercel.app/widget/wbc-chat.js"
-          data-api="https://slackwebsitechat.vercel.app"
-          data-key="wbc_41a573f5963a32723cdd6f400b26d57a773b45bb7190368b"
-          strategy="afterInteractive"
-        />
         <Analytics />
       </body>
     </html>
