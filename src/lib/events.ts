@@ -20,7 +20,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       dateLabel: "June",
       description:
         "Bring the whole family for a morning made just for the kids. We'll have games, a Bible story, a bounce house, and plenty more. All children are welcome.",
-      flyer: "/childrens-day.png",
+      flyer: "/1442.png",
     },
     {
       title: "Men's Bible Study",
