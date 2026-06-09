@@ -29,7 +29,8 @@ export default function SoftballPage() {
             <p className="mt-6 text-ink-body text-base leading-relaxed max-w-xl mx-auto">
               Come watch our softball team play every Monday night starting at
               6:45 PM. Bring the family and cheer us on! Players, check the
-              game schedule below for this week&rsquo;s time and field.
+              game schedule below for this week&rsquo;s time and field. (Click
+              on any game below for field and directions.)
             </p>
           </div>
 
