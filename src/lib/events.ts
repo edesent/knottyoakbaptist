@@ -57,6 +57,8 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       description:
         "Come watch our softball team play every Monday night starting at 6:45 PM. Bring the family and cheer us on!",
       recurring: true,
+      link: "/softball",
+      linkLabel: "View Game Schedule",
     },
     {
       title: "Vacation Bible School",
