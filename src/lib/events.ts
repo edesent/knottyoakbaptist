@@ -23,6 +23,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       dateLabel: "June",
       description:
         "Ladies, come for a morning of good food, time in the Word, and warm fellowship. We'll meet in the lower building. Bring a friend and join us.",
+      bgIcon: "☕",
     },
     {
       title: "Children's Day",
@@ -32,6 +33,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       description:
         "Bring the whole family for a morning made just for the kids. We'll have games, a Bible story, a bounce house, and plenty more. Open to kids ages K through 6.",
       flyer: "/1443.png",
+      bgIcon: "🎈",
     },
     {
       title: "Men's Bible Study",
@@ -41,6 +43,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
         "All men are welcome to join our weekly Bible study, a time for the Word, prayer, and fellowship.",
       contact: "Pastor Justin · (401) 212-7233",
       recurring: true,
+      bgIcon: "📖",
     },
     {
       title: "Ladies Bible Study",
@@ -50,6 +53,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
         "All ladies are welcome. Warm fellowship rooted in Scripture, come just as you are.",
       contact: "Crystal Martin · (401) 226-5856",
       recurring: true,
+      bgIcon: "🌷",
     },
     {
       title: "Church Softball",
@@ -60,6 +64,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       recurring: true,
       link: "/softball",
       linkLabel: "View Game Schedule",
+      bgIcon: "🥎",
     },
     {
       title: "Vacation Bible School",
@@ -69,6 +74,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       description:
         "A week of teaching, crafts, games, and joy for children ages 5 through 12th grade. Concludes Saturday with our Funfair and Sunday Parent's Night.",
       recurring: true,
+      bgIcon: "🎨",
     },
   ];
 }
