@@ -25,6 +25,8 @@ export default function ChatWidget() {
         m.addedNodes.forEach((node) => {
           if (!(node instanceof HTMLElement)) return;
           if (node.tagName === "SCRIPT") return;
+          // Never touch the site's own content
+          if (node.id === "site-root") return;
           // Leave Next.js accessibility helpers alone
           if (node.tagName.toLowerCase().includes("next-route-announcer")) return;
           widgetNodes.current.add(node);
