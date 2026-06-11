@@ -92,6 +92,7 @@ export default function RootLayout({
     <html lang="en" className={`${cormorant.variable} ${inter.variable} antialiased`}>
       <body className="min-h-screen flex flex-col bg-paper text-ink-body">
         {children}
+        <ChatWidget />
         <Analytics />
       </body>
     </html>
