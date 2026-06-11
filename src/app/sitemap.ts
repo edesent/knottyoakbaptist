@@ -12,5 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/beliefs`,    lastModified: now, changeFrequency: "yearly",  priority: 0.7 },
     { url: `${BASE}/covenant`,   lastModified: now, changeFrequency: "yearly",  priority: 0.6 },
     { url: `${BASE}/give`,       lastModified: now, changeFrequency: "yearly",  priority: 0.6 },
+    { url: `${BASE}/prayer`,     lastModified: now, changeFrequency: "yearly",  priority: 0.7 },
   ];
 }
