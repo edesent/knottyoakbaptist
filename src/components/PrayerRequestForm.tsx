@@ -96,9 +96,8 @@ export default function PrayerRequestForm() {
           <span className="font-semibold text-ink">
             Keep my request anonymous.
           </span>{" "}
-          Your name will not be attached to your request. Your email goes only
-          to our pastor so he can pray for you and follow up, and it is never
-          shared.
+          Your name will not be attached to your request. If you include your
+          email, it goes only to our pastor and is never shared.
         </span>
       </label>
 
