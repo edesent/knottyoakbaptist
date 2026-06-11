@@ -67,6 +67,7 @@ export default function Home() {
         <Welcome />
         <ServiceTimes />
         <Events />
+        <PrayerCallout />
         <Contact />
       </main>
       <Footer />
