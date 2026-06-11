@@ -90,8 +90,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable} antialiased`}>
-      <body className="min-h-screen flex flex-col bg-paper text-ink-body">
-        {children}
+      <body className="bg-paper text-ink-body">
+        <div id="site-root" className="min-h-screen flex flex-col">
+          {children}
+        </div>
         <ChatWidget />
         <Analytics />
       </body>
