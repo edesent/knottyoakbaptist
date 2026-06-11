@@ -51,8 +51,8 @@ export default function PrayerPage() {
             <div className="bg-paper-warm p-6 rounded-sm">
               <p className="eyebrow text-brass-dark mb-2">Prefer to Talk?</p>
               <p className="text-ink-body leading-relaxed">
-                If you would rather share your request in person, our pastors
-                are available before and after every service. You are also
+                If you would rather share your request in person, our pastor
+                is available before and after every service. You are also
                 welcome at our Thursday evening prayer meeting.
               </p>
             </div>
