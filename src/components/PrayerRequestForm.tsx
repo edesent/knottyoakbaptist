@@ -32,7 +32,7 @@ export default function PrayerRequestForm() {
           sharing:
             sharing === "public"
               ? "OKAY TO SHARE with the church"
-              : "PRIVATE — pastors and prayer team only",
+              : "PRIVATE — pastor and prayer team only",
           request: request.trim(),
         }),
       });
