@@ -17,15 +17,6 @@ export type ChurchEvent = {
 export async function getEvents(): Promise<ChurchEvent[]> {
   return [
     {
-      title: "Ladies' Brunch & Bible Study",
-      when: "Wednesday, June 10 · 10:30 AM",
-      dayLabel: "10",
-      dateLabel: "June",
-      description:
-        "Ladies, come for a morning of good food, time in the Word, and warm fellowship. We'll meet in the lower building. Bring a friend and join us.",
-      bgIcon: "☕",
-    },
-    {
       title: "Children's Day",
       when: "Sunday, June 14 · 10:00 AM to 12:00 PM",
       dayLabel: "14",
