@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import ServiceTimes from "@/components/ServiceTimes";
 import Events from "@/components/Events";
+import PrayerCallout from "@/components/PrayerCallout";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { site } from "@/lib/site";
