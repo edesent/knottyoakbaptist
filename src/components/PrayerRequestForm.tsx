@@ -16,7 +16,7 @@ export default function PrayerRequestForm() {
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (!request.trim() || !email.trim()) return;
+    if (!request.trim()) return;
     setStatus("sending");
 
     try {
@@ -28,7 +28,7 @@ export default function PrayerRequestForm() {
         },
         body: JSON.stringify({
           name: anonymous ? "Anonymous" : name.trim() || "Not given",
-          email: email.trim(),
+          ...(email.trim() ? { email: email.trim() } : { contact: "No email given" }),
           sharing:
             sharing === "public"
               ? "OKAY TO SHARE with the church"
