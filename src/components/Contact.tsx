@@ -70,26 +70,27 @@ export default function Contact() {
         </div>
 
         {/* Map side */}
-        <div className="relative min-h-[400px] lg:min-h-0 bg-forest-900">
-          <iframe
-            src={mapSrc}
-            title={`Map to ${site.name}`}
-            className="absolute inset-0 w-full h-full border-0 grayscale contrast-110"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-          <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-forest-950/20 via-transparent to-harbor-950/30 mix-blend-multiply" />
+        <div className="flex items-center px-6 md:px-12 lg:px-16 pb-24 lg:py-32">
+          <div className="relative w-full h-[400px] lg:h-[480px] bg-forest-900 rounded-sm overflow-hidden border border-brass-light/20 shadow-xl">
+            <iframe
+              src={mapSrc}
+              title={`Map to ${site.name}`}
+              className="absolute inset-0 w-full h-full border-0 grayscale contrast-110"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+            <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-forest-950/20 via-transparent to-harbor-950/30 mix-blend-multiply" />
 
-          <div className="absolute top-5 left-5 right-5 md:right-auto md:max-w-sm bg-forest-950/95 backdrop-blur-sm border border-brass-light/30 rounded-sm shadow-lg px-5 py-3.5 flex items-start gap-3">
-            <span className="mt-1.5 w-2 h-2 rounded-full bg-brass-light shrink-0" aria-hidden />
-            <p className="text-sm text-white leading-snug">
-              <span className="font-semibold tracking-wide">First-time visitors:</span>{" "}
-              <span className="text-forest-100/90">please use the second parking lot.</span>
-            </p>
+            <div className="absolute top-5 left-5 right-5 md:right-auto md:max-w-sm bg-forest-950/95 backdrop-blur-sm border border-brass-light/30 rounded-sm shadow-lg px-5 py-3.5 flex items-start gap-3">
+              <span className="mt-1.5 w-2 h-2 rounded-full bg-brass-light shrink-0" aria-hidden />
+              <p className="text-sm text-white leading-snug">
+                <span className="font-semibold tracking-wide">First-time visitors:</span>{" "}
+                <span className="text-forest-100/90">please use the second parking lot.</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
