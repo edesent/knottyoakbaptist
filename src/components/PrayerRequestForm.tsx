@@ -126,15 +126,14 @@ export default function PrayerRequestForm() {
             htmlFor="prayer-email"
             className="block text-xs font-semibold tracking-[0.18em] uppercase text-brass-dark mb-2"
           >
-            Email
+            Email <span className="normal-case text-ink-faint tracking-normal font-normal">(optional)</span>
           </label>
           <input
             id="prayer-email"
             type="email"
-            required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="So our pastor can follow up with you"
+            placeholder="Include this if you'd like our pastor to follow up"
             className={inputClasses}
           />
         </div>
