@@ -102,8 +102,8 @@ export default function PrayerRequestForm() {
         </span>
       </label>
 
-      {!anonymous && (
-        <div className="grid md:grid-cols-2 gap-5 mb-6">
+      <div className="grid md:grid-cols-2 gap-5 mb-6">
+        {!anonymous && (
           <div>
             <label
               htmlFor="prayer-name"
@@ -120,24 +120,25 @@ export default function PrayerRequestForm() {
               className={inputClasses}
             />
           </div>
-          <div>
-            <label
-              htmlFor="prayer-email"
-              className="block text-xs font-semibold tracking-[0.18em] uppercase text-brass-dark mb-2"
-            >
-              Email <span className="normal-case text-ink-faint tracking-normal font-normal">(optional)</span>
-            </label>
-            <input
-              id="prayer-email"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="So we can follow up with you"
-              className={inputClasses}
-            />
-          </div>
+        )}
+        <div className={anonymous ? "md:col-span-2" : ""}>
+          <label
+            htmlFor="prayer-email"
+            className="block text-xs font-semibold tracking-[0.18em] uppercase text-brass-dark mb-2"
+          >
+            Email
+          </label>
+          <input
+            id="prayer-email"
+            type="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="So our pastor can follow up with you"
+            className={inputClasses}
+          />
         </div>
-      )}
+      </div>
 
       {/* The request */}
       <div className="mb-8">
