@@ -13,6 +13,7 @@ const navLinks = [
   { href: "/beliefs", label: "Beliefs" },
   { href: "/mission", label: "Mission" },
   { href: "/#events", label: "Events" },
+  { href: "/prayer", label: "Prayer" },
   { href: "/give", label: "Give" },
   { href: "/#contact", label: "Contact" },
 ];
