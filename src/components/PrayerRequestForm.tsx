@@ -54,7 +54,7 @@ export default function PrayerRequestForm() {
           Your request has been received.
         </p>
         <p className="text-ink-body leading-relaxed max-w-md mx-auto">
-          Thank you for sharing this with us. Our pastor will be praying for
+          Thank you for sharing this with us. Pastor Justin will be praying for
           you this week. &ldquo;The effectual fervent prayer of a righteous man
           availeth much.&rdquo; (James 5:16)
         </p>
