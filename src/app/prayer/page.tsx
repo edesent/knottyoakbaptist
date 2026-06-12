@@ -28,7 +28,7 @@ export default function PrayerPage() {
             </h1>
             <p className="mt-8 text-lg text-ink-body leading-relaxed max-w-2xl mx-auto">
               Whatever you are carrying, you do not have to carry it alone. Share
-              your request below, by name or anonymously, and our pastor will
+              your request below, by name or anonymously, and Pastor Justin will
               bring it before the Lord. You decide whether it stays private or
               gets shared with the church family.
             </p>
