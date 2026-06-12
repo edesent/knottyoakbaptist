@@ -59,7 +59,7 @@ export default function PrayerPage() {
             <div className="bg-paper-warm p-6 rounded-sm">
               <p className="eyebrow text-brass-dark mb-2">How We Handle Requests</p>
               <p className="text-ink-body leading-relaxed">
-                Every request goes directly to our pastor. Private requests
+                Every request goes directly to Pastor Justin. Private requests
                 stay private. Requests marked okay to share may be included
                 when the church gathers to pray.
               </p>
