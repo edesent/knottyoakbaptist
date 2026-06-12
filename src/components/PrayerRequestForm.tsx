@@ -132,7 +132,7 @@ export default function PrayerRequestForm() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Include this if you'd like our pastor to follow up"
+            placeholder="Include this if you'd like Pastor Justin to follow up"
             className={inputClasses}
           />
         </div>
