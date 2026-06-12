@@ -173,7 +173,7 @@ export default function PrayerRequestForm() {
             />
             <span className="text-sm text-ink-body leading-relaxed">
               <span className="font-semibold text-ink">Keep it private.</span>{" "}
-              Only our pastor and prayer team will see this request.
+              Only Pastor Justin and the prayer team will see this request.
             </span>
           </label>
           <label className="flex items-start gap-3 cursor-pointer select-none">
