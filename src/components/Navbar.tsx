@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { site } from "@/lib/site";
 
 const navLinks = [
   { href: "/#services", label: "Times" },
