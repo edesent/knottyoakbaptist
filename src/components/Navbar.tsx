@@ -37,10 +37,13 @@ export default function Navbar() {
   }, [pathname]);
 
   const dark = scrolled || isSubPage;
+  const showsLiveBanner = site.live.isLive && !isSubPage;
 
   return (
     <nav
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
+      className={`fixed inset-x-0 z-50 transition-all duration-500 ${
+        showsLiveBanner ? "top-10" : "top-0"
+      } ${
         dark
           ? "bg-forest-950/95 backdrop-blur-md shadow-[0_2px_24px_-8px_rgba(0,0,0,0.4)] py-3"
           : "bg-transparent py-5"
