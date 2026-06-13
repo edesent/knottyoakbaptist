@@ -32,6 +32,14 @@ export const site = {
     youtube: "https://www.youtube.com/@KnottyOakBaptistChurch",
   },
 
+  // Flip this to true right before you go live on YouTube, and back to
+  // false when the service is over. This shows a red banner on the homepage.
+  live: {
+    isLive: false,
+    message: "We're LIVE right now — tap to watch on YouTube",
+    url: "https://www.youtube.com/@KnottyOakBaptistChurch/live",
+  },
+
   services: [
     { label: "Sunday School",     time: "10:00 AM",  day: "Sunday",   iso: "10:00" },
     { label: "Morning Worship",   time: "11:00 AM", day: "Sunday",   iso: "11:00" },
