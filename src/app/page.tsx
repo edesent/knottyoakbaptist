@@ -62,6 +62,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(churchSchema) }}
       />
       <Navbar />
+      <LiveBanner />
       <main className="flex-1">
         <Hero />
         <Welcome />
