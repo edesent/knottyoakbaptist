@@ -87,7 +87,7 @@ export default function Hero() {
               href="/gospel"
               className="inline-flex items-center gap-2 text-brass-light/90 text-sm font-medium hover:text-brass-light transition-colors underline underline-offset-4 decoration-brass-light/40 hover:decoration-brass-light"
             >
-              Do you want to know Jesus Christ? →
+              Where will you spend eternity? →
             </Link>
           </div>
 
