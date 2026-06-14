@@ -38,7 +38,38 @@ export default function GospelPage() {
         <section className="bg-paper-warm py-20 md:py-28">
           <div className="max-w-3xl mx-auto px-6 md:px-10 space-y-20">
 
-            {/* Section 1 */}
+            {/* Section 1 - God Loves You */}
+            <div>
+              <h2 className="font-serif text-3xl md:text-4xl text-ink font-medium leading-snug tracking-tight mb-6">
+                God loves you.
+              </h2>
+              <div className="space-y-5 text-lg text-ink-body leading-relaxed">
+                <p>Before anything else, you need to know that.</p>
+                <p>
+                  God did not create you and walk away. He knows you, He sees
+                  you, and He loves you more than you can understand. Not
+                  because of anything you have done. Not because you have it
+                  all together. Just because that is who He is.
+                </p>
+                <blockquote className="border-l-4 border-brass pl-6 py-2 italic text-ink font-serif text-xl">
+                  &ldquo;For God so loved the world, that he gave his only
+                  begotten Son, that whosoever believeth in him should not
+                  perish, but have everlasting life.&rdquo;
+                  <cite className="block not-italic text-sm font-semibold tracking-[0.18em] uppercase text-brass-dark mt-2">
+                    John 3:16
+                  </cite>
+                </blockquote>
+                <p>
+                  That verse is the whole story in one sentence. God loved.
+                  God gave. You believe. You live. Everything on this page
+                  flows out of that.
+                </p>
+              </div>
+            </div>
+
+            <hr className="border-ink-faint/20" />
+
+            {/* Section 2 - The Problem */}
             <div>
               <h2 className="font-serif text-3xl md:text-4xl text-ink font-medium leading-snug tracking-tight mb-6">
                 You have a problem. So does everybody else.
