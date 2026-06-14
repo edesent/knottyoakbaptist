@@ -30,7 +30,7 @@ export default function GospelPage() {
           <p className="mt-8 text-lg text-ink-body leading-relaxed max-w-2xl mx-auto">
             Maybe somebody sent you this link. Maybe you found it on your own.
             Either way, this page is for anybody who wants to know how to have
-            their sins forgiven and know for certain they are going to heaven.
+            eternal life through Jesus Christ.
           </p>
         </header>
 
