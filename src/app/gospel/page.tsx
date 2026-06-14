@@ -226,7 +226,11 @@ export default function GospelPage() {
               <div className="space-y-5 text-lg text-ink-body leading-relaxed">
                 <p>
                   <span className="font-semibold text-ink">Get into a Bible.</span>{" "}
-                  Start in the Gospel of John. Just start reading.
+                  Start in the Gospel of John. Just start reading. If you do
+                  not have a Bible we would love to get you one, just reach out
+                  to us. You can also download the Blue Letter Bible app on
+                  your phone for free and have the whole Word of God right in
+                  your pocket.
                 </p>
                 <p>
                   <span className="font-semibold text-ink">Get into a church.</span>{" "}
