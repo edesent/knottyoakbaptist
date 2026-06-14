@@ -227,14 +227,14 @@ export default function GospelPage() {
                   >
                     pastor@knottyoak.org
                   </a>{" "}
-                  or call{" "}
+                  or call or text Pastor Justin directly at{" "}
                   <a
-                    href="tel:+14018285856"
+                    href="sms:+14012127233"
                     className="text-forest-700 underline underline-offset-2 hover:text-forest-900"
                   >
-                    (401) 828-5856
+                    (401) 212-7233
                   </a>
-                  .
+                  . Texting is usually the quickest way to reach him.
                 </p>
               </div>
             </div>
