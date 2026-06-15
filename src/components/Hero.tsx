@@ -76,7 +76,7 @@ export default function Hero() {
             </Link>
             <Link
               href="/gospel"
-              className="inline-flex items-center gap-2 text-white font-medium text-sm tracking-wide uppercase px-8 py-4 rounded-full border-2 border-white/30 hover:bg-white/10 hover:border-white/60 transition-all"
+              className="inline-flex items-center gap-2 text-brass-light font-medium text-sm tracking-wide uppercase px-8 py-4 rounded-full border-2 border-red-600 hover:bg-red-600/10 hover:border-red-400 transition-all"
             >
               Do you know where you will spend eternity? If not click here.
             </Link>
