@@ -44,7 +44,7 @@ export default function SoftballPage() {
               2026 Season Schedule
             </h2>
             <p className="text-center text-ink-body text-sm mb-6">
-              Every Monday night. Check below to see where we&rsquo;re playing each week.
+              No GameChanger app? No problem. Everything you need to know about who we&rsquo;re playing and where we&rsquo;re going is right here.
             </p>
             <div className="bg-white border border-ink-faint/15 rounded-sm shadow-sm overflow-hidden">
               <table className="w-full text-sm">
