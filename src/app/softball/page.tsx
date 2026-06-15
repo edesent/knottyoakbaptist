@@ -72,7 +72,7 @@ export default function SoftballPage() {
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-paper"}>
                       <td className="px-4 py-3 font-medium text-ink whitespace-nowrap">{game.date}</td>
                       <td className="px-4 py-3 text-ink-body">{game.opponent}</td>
-                      <td className="px-4 py-3 text-ink-body whitespace-nowrap hidden sm:table-cell">{game.time}</td>
+                      <td className="px-4 py-3 text-ink-body whitespace-nowrap">{game.time}</td>
                       <td className="px-4 py-3">
                         <a
                           href={game.mapsUrl}
