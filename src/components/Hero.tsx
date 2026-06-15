@@ -69,7 +69,7 @@ export default function Hero() {
           <div className="rise-in delay-500 mt-10 flex flex-wrap gap-4">
             <Link
               href="/#services"
-              className="inline-flex items-center gap-2 bg-brass text-forest-950 font-semibold text-sm tracking-wide uppercase px-8 py-4 rounded-full border-2 border-brass hover:bg-brass-light hover:border-brass-light hover:-translate-y-0.5 transition-all shadow-lg shadow-forest-950/40"
+              className="inline-flex items-center gap-2 bg-transparent text-brass font-semibold text-sm tracking-wide uppercase px-8 py-4 rounded-full border-2 border-brass hover:bg-brass hover:text-forest-950 hover:-translate-y-0.5 transition-all shadow-lg shadow-forest-950/40"
             >
               Join Us This Sunday
               <span aria-hidden>→</span>
