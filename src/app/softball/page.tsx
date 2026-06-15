@@ -100,8 +100,16 @@ export default function SoftballPage() {
               <div className="bg-white border border-ink-faint/15 rounded-sm p-5 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div>
                   <p className="font-serif text-lg font-medium text-ink">Agawam Rear Field</p>
-                  <p className="text-ink-body text-sm mt-1">Address coming soon — check the GameChanger schedule for details.</p>
+                  <p className="text-ink-body text-sm mt-1">1600 Pawtucket Ave, East Providence, RI 02914</p>
                 </div>
+                <a
+                  href="https://maps.google.com/?q=1600+Pawtucket+Ave,+East+Providence,+RI+02914"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block shrink-0 bg-forest-700 hover:bg-forest-900 text-white text-sm font-semibold px-5 py-2.5 rounded-sm transition-colors text-center"
+                >
+                  Get Directions
+                </a>
               </div>
 
             </div>
