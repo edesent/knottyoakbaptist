@@ -55,10 +55,6 @@ export default function DevotionalsPage() {
             A few minutes in the
             <span className="block italic text-forest-800">Word changes everything.</span>
           </h1>
-          <p className="mt-8 text-lg text-ink-body leading-relaxed max-w-2xl mx-auto">
-            A few trusted places to spend a few minutes in the Word. KJV. Sound. Encouraging.
-            Something you can open on your phone before your feet hit the floor.
-          </p>
         </header>
 
         <section className="py-20 md:py-28 bg-paper-warm">
