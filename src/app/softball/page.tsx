@@ -52,7 +52,7 @@ export default function SoftballPage() {
                   <tr className="bg-forest-700 text-white">
                     <th className="text-left px-4 py-3 font-semibold">Date</th>
                     <th className="text-left px-4 py-3 font-semibold">Opponent</th>
-                    <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Time</th>
+                    <th className="text-left px-4 py-3 font-semibold">Time</th>
                     <th className="text-left px-4 py-3 font-semibold">Field</th>
                   </tr>
                 </thead>
