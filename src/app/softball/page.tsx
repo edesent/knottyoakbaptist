@@ -38,6 +38,58 @@ export default function SoftballPage() {
             <SoftballSchedule />
           </div>
 
+          {/* Game Schedule Table */}
+          <div className="mt-10">
+            <h2 className="font-serif text-2xl md:text-3xl text-ink font-medium text-center mb-2">
+              2025 Season Schedule
+            </h2>
+            <p className="text-center text-ink-body text-sm mb-6">
+              Every Monday night. Check below to see where we&rsquo;re playing each week.
+            </p>
+            <div className="bg-white border border-ink-faint/15 rounded-sm shadow-sm overflow-hidden">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-forest-700 text-white">
+                    <th className="text-left px-4 py-3 font-semibold">Date</th>
+                    <th className="text-left px-4 py-3 font-semibold">Opponent</th>
+                    <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Time</th>
+                    <th className="text-left px-4 py-3 font-semibold">Field</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { date: "Jun 15", opponent: "vs. Legacy Church Orange", time: "6:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
+                    { date: "Jun 22", opponent: "@ COTC 1", time: "6:45 PM", field: "Chariho / Dow Field", mapsUrl: "https://maps.google.com/?q=1118+Main+St,+Hope+Valley,+RI+02832" },
+                    { date: "Jun 29", opponent: "@ Legacy Church Blue", time: "6:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
+                    { date: "Jul 13", opponent: "vs. COTC2", time: "6:45 PM", field: "Neutaconkanut Park", mapsUrl: "https://maps.google.com/?q=899+Plainfield+St,+Providence,+RI+02909" },
+                    { date: "Jul 20", opponent: "@ Faith Baptist", time: "6:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
+                    { date: "Jul 27", opponent: "@ Bridgepointe Green", time: "7:45 PM", field: "Agawam Rear Field", mapsUrl: "https://maps.google.com/?q=1600+Pawtucket+Ave,+East+Providence,+RI+02914" },
+                    { date: "Aug 3", opponent: "vs. Cornerstone Church", time: "6:45 PM", field: "Chariho / Dow Field", mapsUrl: "https://maps.google.com/?q=1118+Main+St,+Hope+Valley,+RI+02832" },
+                    { date: "Aug 10", opponent: "vs. Bridgepointe Blue", time: "7:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
+                    { date: "Aug 17", opponent: "@ Redemption City", time: "7:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
+                    { date: "Aug 24", opponent: "@ Riverside", time: "7:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
+                  ].map((game, i) => (
+                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-paper"}>
+                      <td className="px-4 py-3 font-medium text-ink whitespace-nowrap">{game.date}</td>
+                      <td className="px-4 py-3 text-ink-body">{game.opponent}</td>
+                      <td className="px-4 py-3 text-ink-body whitespace-nowrap hidden sm:table-cell">{game.time}</td>
+                      <td className="px-4 py-3">
+                        <a
+                          href={game.mapsUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-forest-700 hover:text-forest-900 font-semibold underline underline-offset-2 transition-colors"
+                        >
+                          {game.field}
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
           {/* Field Information Section */}
           <div className="mt-10">
             <h2 className="font-serif text-2xl md:text-3xl text-ink font-medium text-center mb-2">
