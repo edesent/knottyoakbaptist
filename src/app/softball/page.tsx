@@ -41,7 +41,7 @@ export default function SoftballPage() {
           {/* Game Schedule Table */}
           <div className="mt-10">
             <h2 className="font-serif text-2xl md:text-3xl text-ink font-medium text-center mb-2">
-              2025 Season Schedule
+              2026 Season Schedule
             </h2>
             <p className="text-center text-ink-body text-sm mb-6">
               Every Monday night. Check below to see where we&rsquo;re playing each week.
