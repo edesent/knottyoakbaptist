@@ -38,6 +38,75 @@ export default function SoftballPage() {
             <SoftballSchedule />
           </div>
 
+          {/* Field Information Section */}
+          <div className="mt-10">
+            <h2 className="font-serif text-2xl md:text-3xl text-ink font-medium text-center mb-2">
+              Field Information
+            </h2>
+            <p className="text-center text-ink-body text-sm mb-6">
+              Don&rsquo;t have the GameChanger app? No problem. Here are all the fields we play at this season with directions.
+            </p>
+            <div className="space-y-4">
+
+              {/* Rice Memorial Field */}
+              <div className="bg-white border border-ink-faint/15 rounded-sm p-5 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div>
+                  <p className="font-serif text-lg font-medium text-ink">Rice Memorial Field</p>
+                  <p className="text-ink-body text-sm mt-1">51 Knotty Oak Rd, Coventry, RI 02816</p>
+                </div>
+                <a
+                  href="https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block shrink-0 bg-forest-700 hover:bg-forest-900 text-white text-sm font-semibold px-5 py-2.5 rounded-sm transition-colors text-center"
+                >
+                  Get Directions
+                </a>
+              </div>
+
+              {/* Neutaconkanut Park */}
+              <div className="bg-white border border-ink-faint/15 rounded-sm p-5 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div>
+                  <p className="font-serif text-lg font-medium text-ink">Neutaconkanut Park</p>
+                  <p className="text-ink-body text-sm mt-1">899 Plainfield St, Providence, RI 02909</p>
+                </div>
+                <a
+                  href="https://maps.google.com/?q=899+Plainfield+St,+Providence,+RI+02909"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block shrink-0 bg-forest-700 hover:bg-forest-900 text-white text-sm font-semibold px-5 py-2.5 rounded-sm transition-colors text-center"
+                >
+                  Get Directions
+                </a>
+              </div>
+
+              {/* Chariho Little League / Dow Field */}
+              <div className="bg-white border border-ink-faint/15 rounded-sm p-5 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div>
+                  <p className="font-serif text-lg font-medium text-ink">Chariho Little League / Dow Field</p>
+                  <p className="text-ink-body text-sm mt-1">1118 Main St, Hope Valley, RI 02832</p>
+                </div>
+                <a
+                  href="https://maps.google.com/?q=1118+Main+St,+Hope+Valley,+RI+02832"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block shrink-0 bg-forest-700 hover:bg-forest-900 text-white text-sm font-semibold px-5 py-2.5 rounded-sm transition-colors text-center"
+                >
+                  Get Directions
+                </a>
+              </div>
+
+              {/* Agawam Rear Field */}
+              <div className="bg-white border border-ink-faint/15 rounded-sm p-5 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div>
+                  <p className="font-serif text-lg font-medium text-ink">Agawam Rear Field</p>
+                  <p className="text-ink-body text-sm mt-1">Address coming soon — check the GameChanger schedule for details.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
           <div className="mt-10 text-center">
             <a
               href="/#events"
