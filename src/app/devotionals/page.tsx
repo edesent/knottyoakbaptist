@@ -52,8 +52,8 @@ export default function DevotionalsPage() {
           </div>
           <p className="eyebrow">Daily Reading</p>
           <h1 className="mt-4 font-serif text-5xl md:text-6xl lg:text-7xl text-ink font-medium leading-[1.05] tracking-tight">
-            Feed on the
-            <span className="block italic text-forest-800">Word every day.</span>
+            A few minutes in the
+            <span className="block italic text-forest-800">Word changes everything.</span>
           </h1>
           <p className="mt-8 text-lg text-ink-body leading-relaxed max-w-2xl mx-auto">
             A few trusted places to spend a few minutes in the Word. KJV. Sound. Encouraging.
