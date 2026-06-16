@@ -17,37 +17,6 @@ export type ChurchEvent = {
 export async function getEvents(): Promise<ChurchEvent[]> {
   return [
     {
-      title: "Men's Bible Study",
-      when: "Tuesdays · 6:30 PM",
-      dayLabel: "Tue",
-      description:
-        "All men are welcome to join our weekly Bible study, a time for the Word, prayer, and fellowship.",
-      contact: "Pastor Justin · (401) 212-7233",
-      recurring: true,
-      bgIcon: "📖",
-    },
-    {
-      title: "Ladies Bible Study",
-      when: "Tuesdays · 6:30 PM",
-      dayLabel: "Tue",
-      description:
-        "All ladies are welcome. Warm fellowship rooted in Scripture, come just as you are.",
-      contact: "Crystal Martin · (401) 226-5856",
-      recurring: true,
-      bgIcon: "🌷",
-    },
-    {
-      title: "Church Softball",
-      when: "Mondays · 6:45 PM",
-      dayLabel: "Mon",
-      description:
-        "Come watch our softball team play every Monday night starting at 6:45 PM. Bring the family and cheer us on! Players, check the game schedule below for this week's time and field.",
-      recurring: true,
-      link: "/softball",
-      linkLabel: "View Game Schedule",
-      bgIcon: "🥎",
-    },
-    {
       title: "Teen Camp",
       when: "June 22 to 26, 2026",
       dayLabel: "22",
@@ -67,6 +36,37 @@ export async function getEvents(): Promise<ChurchEvent[]> {
         "A week of teaching, crafts, games, and joy for children ages 5 through 12th grade. Concludes Saturday with our Funfair and Sunday Parent's Night.",
       recurring: true,
       bgIcon: "🎨",
+    },
+    {
+      title: "Church Softball",
+      when: "Mondays · 6:45 PM",
+      dayLabel: "Mon",
+      description:
+        "Come watch our softball team play every Monday night starting at 6:45 PM. Bring the family and cheer us on! Players, check the game schedule below for this week's time and field.",
+      recurring: true,
+      link: "/softball",
+      linkLabel: "View Game Schedule",
+      bgIcon: "🥎",
+    },
+    {
+      title: "Men's Bible Study",
+      when: "Tuesdays · 6:30 PM",
+      dayLabel: "Tue",
+      description:
+        "All men are welcome to join our weekly Bible study, a time for the Word, prayer, and fellowship.",
+      contact: "Pastor Justin · (401) 212-7233",
+      recurring: true,
+      bgIcon: "📖",
+    },
+    {
+      title: "Ladies Bible Study",
+      when: "Tuesdays · 6:30 PM",
+      dayLabel: "Tue",
+      description:
+        "All ladies are welcome. Warm fellowship rooted in Scripture, come just as you are.",
+      contact: "Crystal Martin · (401) 226-5856",
+      recurring: true,
+      bgIcon: "🌷",
     },
   ];
 }
