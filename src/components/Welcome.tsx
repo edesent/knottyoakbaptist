@@ -51,7 +51,7 @@ export default function Welcome() {
               </p>
               <p>
                 A childhood friend invited me to a teen game night at Knotty
-                Oak Baptist Church. I met some awesome people and made some friends.
+                Oak Baptist Church. I met some awesome people and made some friends that night.
                 Eventually I went to a Sunday morning service and found the people
                 there to be very friendly. Very sincere. Something was different
                 about them, different than anything I had ever experienced. There was
