@@ -50,7 +50,7 @@ export default function Welcome() {
                 lost, had no direction and no idea what I was missing.
               </p>
               <p>
-                Then a childhood friend invited me to a teen game night at Knotty
+                A childhood friend invited me to a teen game night at Knotty
                 Oak Baptist Church. I met some awesome people and made some friends.
                 Eventually I went to a Sunday morning service and found the people
                 there to be very friendly. Very sincere. Something was different
