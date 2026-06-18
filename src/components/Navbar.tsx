@@ -122,14 +122,7 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
-            <li className="mt-4">
-              <Link
-                href="/#services"
-                className="block text-center bg-brass text-forest-950 font-semibold px-6 py-3 rounded-full hover:bg-brass-light transition-all"
-              >
-                Plan a Visit
-              </Link>
-            </li>
+
           </ul>
         </div>
       </div>
