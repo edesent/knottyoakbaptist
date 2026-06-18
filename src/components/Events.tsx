@@ -10,10 +10,9 @@ export default async function Events() {
       <div className="max-w-6xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
           <div className="max-w-xl">
-            <p className="eyebrow">Come Alongside</p>
             <h2 className="mt-4 font-serif text-4xl md:text-5xl text-ink font-medium leading-tight tracking-tight">
-              What&rsquo;s happening
-              <span className="block italic text-forest-800">this season.</span>
+              Here&rsquo;s what&rsquo;s going on
+              <span className="block italic text-forest-800">in the church.</span>
             </h2>
           </div>
           <p className="text-ink-muted text-sm max-w-sm">
