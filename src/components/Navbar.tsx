@@ -81,14 +81,7 @@ export default function Navbar() {
               </Link>
             </li>
           ))}
-          <li className="ml-2">
-            <Link
-              href="/#services"
-              className="inline-flex items-center gap-1.5 bg-brass text-forest-950 text-[0.78rem] font-semibold tracking-wide uppercase px-5 py-2.5 rounded-full hover:bg-brass-light hover:-translate-y-0.5 transition-all shadow-sm"
-            >
-              Plan a Visit
-            </Link>
-          </li>
+
         </ul>
 
         <button
