@@ -17,17 +17,6 @@ export type ChurchEvent = {
 export async function getEvents(): Promise<ChurchEvent[]> {
   return [
     {
-      title: "Teen Camp",
-      when: "June 22 to 26, 2026",
-      dayLabel: "22",
-      dateLabel: "Jun",
-      description:
-        "Our teens head up to New England Baptist Teen Camp for a week of preaching, competition, and fellowship. One of the highlights of their year. Registration and info at NEBTC.org.",
-      link: "https://www.nebtc.org/register/teen-camp/",
-      linkLabel: "Register Now",
-      bgIcon: "⛺",
-    },
-    {
       title: "Love Feast Cookout",
       when: "Sunday, July 5th · After Morning Worship",
       dayLabel: "5",
