@@ -33,6 +33,37 @@ export default async function Events() {
                 >
                   <img
                     src={ev.flyer}
+                    alt={`${ev.title} flyer`}
+                    className="w-full h-full object-cover"
+                  />
+                </a>
+              );
+            }
+            if (ev.title === "Church Softball" && ev.flyer) {
+              return (
+                <a
+                  key={ev.title}
+                  href="/softball"
+                  className="relative overflow-hidden rounded-sm border border-ink-faint/15 hover:border-forest-600/40 hover:shadow-lg transition-all block"
+                >
+                  <img
+                    src={ev.flyer}
+                    alt="Church Softball flyer"
+                    className="w-full h-full object-cover"
+                  />
+                </a>
+              );
+            }
+              return (
+                <a
+                  key={ev.title}
+                  href={ev.flyer}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative overflow-hidden rounded-sm border border-ink-faint/15 hover:border-forest-600/40 hover:shadow-lg transition-all block"
+                >
+                  <img
+                    src={ev.flyer}
                     alt="Vacation Bible School flyer"
                     className="w-full h-full object-cover"
                   />
