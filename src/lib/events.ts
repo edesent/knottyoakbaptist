@@ -34,6 +34,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       description:
         "A week of teaching, crafts, games, and joy for children ages 5 through 12th grade. Concludes Saturday with our Funfair and Sunday Parent's Night.",
       recurring: true,
+      flyer: "/2027.png",
       bgIcon: "🎨",
     },
     {
