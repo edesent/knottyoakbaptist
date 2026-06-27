@@ -33,13 +33,18 @@ export default async function Events() {
                   href={href}
                   target={target}
                   rel="noopener noreferrer"
-                  className="relative overflow-hidden rounded-sm border border-ink-faint/15 hover:border-forest-600/40 hover:shadow-lg transition-all block"
+                  className="relative overflow-hidden rounded-sm border border-ink-faint/15 hover:border-forest-600/40 hover:shadow-lg transition-all block group"
                 >
                   <img
                     src={ev.flyer}
                     alt={`${ev.title} flyer`}
                     className="w-full h-full object-cover"
                   />
+                  {ev.title === "Church Softball" && (
+                    <div className="absolute bottom-0 left-0 right-0 bg-forest-900/90 text-white text-center text-sm font-semibold tracking-wide py-3 group-hover:bg-forest-700 transition-colors">
+                      View Schedule &amp; Game Info →
+                    </div>
+                  )}
                 </a>
               );
             }
