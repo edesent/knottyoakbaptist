@@ -27,6 +27,24 @@ export default async function Events() {
             if (FLYER_ONLY.includes(ev.title) && ev.flyer) {
               const href = ev.title === "Church Softball" ? "/softball" : ev.flyer;
               const target = ev.title === "Church Softball" ? "_self" : "_blank";
+              if (ev.title === "Vacation Bible School") {
+                return (
+                  <div key={ev.title} className="flex flex-col rounded-sm border border-ink-faint/15 overflow-hidden hover:border-forest-600/40 hover:shadow-lg transition-all">
+                    <a href={ev.flyer} target="_blank" rel="noopener noreferrer" className="block">
+                      <img src={ev.flyer} alt="Vacation Bible School flyer" className="w-full object-cover" />
+                    </a>
+                    <div className="bg-white px-4 py-4 flex items-center gap-4">
+                      <img src="/2035.png" alt="Scan to register" className="w-16 h-16 flex-shrink-0" />
+                      <div className="flex-1">
+                        <p className="text-xs text-ink-muted mb-2">Scan to register or tap below</p>
+                        <a href="/vbs-registration" className="block text-center bg-forest-900 hover:bg-forest-700 text-white text-xs font-semibold tracking-wide uppercase py-2 px-3 rounded-sm transition-colors">
+                          Register Online →
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                );
+              }
               return (
                 <a
                   key={ev.title}
