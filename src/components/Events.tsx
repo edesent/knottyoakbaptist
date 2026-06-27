@@ -22,7 +22,7 @@ export default async function Events() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {events.map((ev) => {
-            if (ev.title === "Vacation Bible School" && ev.flyer) {
+            if ((ev.title === "Vacation Bible School" || ev.title === "Love Feast Cookout") && ev.flyer) {
               return (
                 <a
                   key={ev.title}
