@@ -101,7 +101,8 @@ export default async function Events() {
                 </a>
               )}
             </article>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
