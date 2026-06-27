@@ -21,7 +21,25 @@ export default async function Events() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {events.map((ev) => (
+          {events.map((ev) => {
+            if (ev.title === "Vacation Bible School" && ev.flyer) {
+              return (
+                <a
+                  key={ev.title}
+                  href={ev.flyer}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative overflow-hidden rounded-sm border border-ink-faint/15 hover:border-forest-600/40 hover:shadow-lg transition-all block"
+                >
+                  <img
+                    src={ev.flyer}
+                    alt="Vacation Bible School flyer"
+                    className="w-full h-full object-cover"
+                  />
+                </a>
+              );
+            }
+            return (
             <article
               key={ev.title}
               className="relative overflow-hidden bg-white border border-ink-faint/15 rounded-sm p-8 hover:border-forest-600/40 hover:shadow-lg transition-all"
