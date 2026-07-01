@@ -41,12 +41,20 @@ export default function Navbar() {
 
   const dark = scrolled || isSubPage;
   const showsLiveBanner = site.live.isLive && !isSubPage;
+  const showsVbsBanner = site.vbs.isActive;
+  const bannerCount = (showsVbsBanner ? 1 : 0) + (showsLiveBanner ? 1 : 0);
+  const navTop = bannerCount === 2 ? "top-20" : bannerCount === 1 ? "top-10" : "top-0";
 
   return (
-    <nav
-      className={`fixed inset-x-0 z-50 transition-all duration-500 ${
-        showsLiveBanner ? "top-10" : "top-0"
-      } ${
+    <>
+      {showsVbsBanner && <VBSBanner top="top-0" />}
+      {showsLiveBanner && (
+        <LiveBanner top={showsVbsBanner ? "top-10" : "top-0"} />
+      )}
+      <nav
+        className={`fixed inset-x-0 z-50 transition-all duration-500 ${
+          navTop
+        } ${
         dark
           ? "bg-forest-950/95 backdrop-blur-md shadow-[0_2px_24px_-8px_rgba(0,0,0,0.4)] py-3"
           : "bg-transparent py-5"
