@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { site } from "@/lib/site";
+import LiveBanner from "@/components/LiveBanner";
+import VBSBanner from "@/components/VBSBanner";
 
 const navLinks = [
   { href: "/#services", label: "Times" },
