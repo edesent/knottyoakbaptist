@@ -40,6 +40,14 @@ export const site = {
     url: "https://www.youtube.com/@KnottyOakBaptistChurch/live",
   },
 
+  // Flip isActive to false after VBS week is over to remove the banner
+  // from every page. Shows a green banner site-wide.
+  vbs: {
+    isActive: true,
+    message: "VBS 2026: Junkyard Redemption — Aug 3–8 — Ages 5 to Grade 12 — Tap to Sign Up Your Kids!",
+    url: "/vbs-registration",
+  },
+
   services: [
     { label: "Sunday School",     time: "10:00 AM",  day: "Sunday",   iso: "10:00" },
     { label: "Morning Worship",   time: "11:00 AM", day: "Sunday",   iso: "11:00" },
