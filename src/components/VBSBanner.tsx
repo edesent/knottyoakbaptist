@@ -7,10 +7,10 @@ export default function VBSBanner({ top = "top-0" }: { top?: string }) {
   return (
     <Link
       href={site.vbs.url}
-      className={`fixed ${top} inset-x-0 z-[60] h-10 bg-green-600 text-white flex items-center justify-center gap-2 text-xs md:text-sm font-semibold tracking-wide hover:bg-green-700 transition-colors px-4 text-center`}
+      className={`fixed ${top} inset-x-0 z-[60] min-h-14 bg-green-700/60 backdrop-blur-md text-white flex items-center justify-center gap-2 text-sm sm:text-base font-semibold tracking-wide hover:bg-green-800/70 transition-colors px-4 py-2 text-center leading-snug`}
     >
       <span className="hidden sm:inline">🧰</span>
-      <span className="truncate">{site.vbs.message}</span>
+      <span>{site.vbs.message}</span>
     </Link>
   );
 }
