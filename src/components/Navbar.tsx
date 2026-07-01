@@ -106,7 +106,7 @@ export default function Navbar() {
         </button>
 
         <div
-          className={`fixed lg:hidden top-0 right-0 w-80 h-screen bg-forest-950 pt-24 px-8 shadow-2xl transition-transform duration-300 ${
+          className={`fixed lg:hidden ${navTop} right-0 w-80 h-screen bg-forest-950 pt-24 px-8 shadow-2xl transition-transform duration-300 ${
             menuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
@@ -137,5 +137,6 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+    </>
   );
 }
