@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-import LiveBanner from "@/components/LiveBanner";
 import Hero from "@/components/Hero";
 import Welcome from "@/components/Welcome";
 import ServiceTimes from "@/components/ServiceTimes";
