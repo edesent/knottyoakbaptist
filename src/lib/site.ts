@@ -44,7 +44,7 @@ export const site = {
   // from every page. Shows a green banner site-wide.
   vbs: {
     isActive: true,
-    message: "VBS 2026: Junkyard Redemption — Aug 3–8 — Ages 5 to Grade 12 — Tap to Sign Up Your Kids!",
+    message: "Vacation Bible School 2026: Junkyard Redemption — Free — Aug 3–8 — Ages 5 to Grade 12 — Tap to Sign Up Your Kids!",
     url: "/vbs-registration",
   },
 
