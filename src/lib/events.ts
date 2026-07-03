@@ -1,3 +1,5 @@
+import { getNextGame } from "./softball";
+
 export type ChurchEvent = {
   title: string;
   when: string;
@@ -15,6 +17,11 @@ export type ChurchEvent = {
 // Placeholder events — wire up to Google Sheets later by replacing `getEvents()`.
 // To publish: File → Share → Publish to web → CSV, then fetch + parse here.
 export async function getEvents(): Promise<ChurchEvent[]> {
+  const nextGame = getNextGame();
+  const softballDescription = nextGame
+    ? `Next game: ${nextGame.opponent} at ${nextGame.field}, ${nextGame.date} · ${nextGame.time}. Bring the family and cheer us on!`
+    : "Check back soon for our next game.";
+
   return [
     {
       title: "Love Feast Cookout",
