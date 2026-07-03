@@ -57,18 +57,7 @@ export default function SoftballPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  {[
-                    { date: "Jun 15", opponent: "vs. Legacy Church Orange", time: "6:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
-                    { date: "Jun 22", opponent: "@ COTC 1", time: "6:45 PM", field: "Chariho / Dow Field", mapsUrl: "https://maps.google.com/?q=1118+Main+St,+Hope+Valley,+RI+02832" },
-                    { date: "Jun 29", opponent: "@ Legacy Church Blue", time: "6:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
-                    { date: "Jul 13", opponent: "vs. COTC2", time: "6:45 PM", field: "Neutaconkanut Park", mapsUrl: "https://maps.google.com/?q=899+Plainfield+St,+Providence,+RI+02909" },
-                    { date: "Jul 20", opponent: "@ Faith Baptist", time: "6:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
-                    { date: "Jul 27", opponent: "@ Bridgepointe Green", time: "7:45 PM", field: "Agawam Rear Field", mapsUrl: "https://maps.google.com/?q=1600+Pawtucket+Ave,+East+Providence,+RI+02914" },
-                    { date: "Aug 3", opponent: "vs. Cornerstone Church", time: "6:45 PM", field: "Chariho / Dow Field", mapsUrl: "https://maps.google.com/?q=1118+Main+St,+Hope+Valley,+RI+02832" },
-                    { date: "Aug 10", opponent: "vs. Bridgepointe Blue", time: "7:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
-                    { date: "Aug 17", opponent: "@ Redemption City", time: "7:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
-                    { date: "Aug 24", opponent: "@ Riverside", time: "7:45 PM", field: "Rice Memorial Field", mapsUrl: "https://maps.google.com/?q=51+Knotty+Oak+Rd,+Coventry,+RI+02816" },
-                  ].map((game, i) => (
+                  {softballSchedule.map((game, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-paper"}>
                       <td className="px-4 py-3 font-medium text-ink whitespace-nowrap">{game.date}</td>
                       <td className="px-4 py-3 text-ink-body">{game.opponent}</td>
