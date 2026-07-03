@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SoftballSchedule from "@/components/SoftballSchedule";
+import { softballSchedule } from "@/lib/softball";
 
 export const metadata: Metadata = {
   title: "Church Softball Schedule",
