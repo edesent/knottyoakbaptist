@@ -2,7 +2,7 @@ import { getEvents } from "@/lib/events";
 
 export const revalidate = 300; // ISR: refresh at most every 5 minutes
 
-const FLYER_ONLY = ["Vacation Bible School", "Love Feast Cookout", "Church Softball"];
+const FLYER_ONLY = ["Vacation Bible School", "Love Feast Cookout"];
 
 export default async function Events() {
   const events = await getEvents();
