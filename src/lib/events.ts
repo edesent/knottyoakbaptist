@@ -42,7 +42,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       when: "Mondays · 6:45 PM",
       dayLabel: "Mon",
       description:
-        "Come watch our softball team play every Monday night starting at 6:45 PM. Bring the family and cheer us on! Players, check the game schedule below for this week's time and field.",
+        "No softball this week (July 6th). We'll be back on the field the following Monday — check the game schedule below for updates.",
       recurring: true,
       flyer: "/2028.png",
       link: "/softball",
