@@ -24,16 +24,6 @@ export async function getEvents(): Promise<ChurchEvent[]> {
 
   return [
     {
-      title: "Love Feast Cookout",
-      when: "Sunday, July 5th · After Morning Worship",
-      dayLabel: "5",
-      dateLabel: "Jul",
-      description:
-        "Join us for our Love Feast Cookout right after morning worship on Sunday, July 5th! Bring drinks or a dish to share.",
-      flyer: "/1765.png",
-      bgIcon: "🍖",
-    },
-    {
       title: "Vacation Bible School",
       when: "First full week of August",
       dayLabel: "Aug",
