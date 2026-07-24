@@ -43,6 +43,20 @@ export default async function Events() {
                   </div>
                 );
               }
+              if (ev.title === "Lake Compounce Trip") {
+                return (
+                  <div key={ev.title} className="flex flex-col rounded-sm border border-ink-faint/15 overflow-hidden hover:border-forest-600/40 hover:shadow-lg transition-all">
+                    <a href={ev.flyer} target="_blank" rel="noopener noreferrer" className="block">
+                      <img src={ev.flyer} alt="Lake Compounce trip flyer" className="w-full object-cover" />
+                    </a>
+                    <div className="bg-white px-4 py-4">
+                      <a href="/lake-compounce" className="block w-full text-center bg-forest-900 hover:bg-forest-700 text-white text-xs font-semibold tracking-wide uppercase py-3 px-3 rounded-sm transition-colors">
+                        Sign Up Online →
+                      </a>
+                    </div>
+                  </div>
+                );
+              }
               return (
                 <a
                   key={ev.title}
