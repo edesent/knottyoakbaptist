@@ -43,7 +43,7 @@ export const site = {
   // Flip isActive to false after VBS week is over to remove the banner
   // from every page. Shows a green banner site-wide.
   vbs: {
-    isActive: true,
+    isActive: false,
     message: "Vacation Bible School 2026: Junkyard Redemption — Free — Aug 3–8 — Ages 5 to Grade 12 — Tap to Sign Up Your Kids!",
     url: "/vbs-registration",
   },
