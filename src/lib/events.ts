@@ -37,17 +37,6 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       bgIcon: "🎢",
     },
     {
-      title: "Vacation Bible School",
-      when: "First full week of August",
-      dayLabel: "Aug",
-      dateLabel: "Summer",
-      description:
-        "A week of teaching, crafts, games, and joy for children ages 5 through 12th grade. Concludes Saturday with our Funfair and Sunday Parent's Night.",
-      recurring: true,
-      flyer: "/2027.png",
-      bgIcon: "🎨",
-    },
-    {
       title: "Church Softball",
       when: "Mondays · 6:45 PM",
       dayLabel: "Mon",
