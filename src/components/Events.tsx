@@ -25,8 +25,8 @@ export default async function Events() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {events.map((ev) => {
             if (FLYER_ONLY.includes(ev.title) && ev.flyer) {
-              const href = ev.title === "Church Softball" ? "/softball" : ev.flyer;
-              const target = ev.title === "Church Softball" ? "_self" : "_blank";
+              const href = ev.flyer;
+              const target = "_blank";
               if (ev.title === "Lake Compounce Trip") {
                 return (
                   <div key={ev.title} className="flex flex-col rounded-sm border border-ink-faint/15 overflow-hidden hover:border-forest-600/40 hover:shadow-lg transition-all">
