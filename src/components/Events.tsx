@@ -54,11 +54,6 @@ export default async function Events() {
                     alt={`${ev.title} flyer`}
                     className="w-full h-full object-cover"
                   />
-                  {ev.title === "Church Softball" && (
-                    <div className="absolute bottom-0 left-0 right-0 bg-forest-900/90 text-white text-center text-sm font-semibold tracking-wide py-3 group-hover:bg-forest-700 transition-colors">
-                      No Softball This Week (July 6th) →
-                    </div>
-                  )}
                 </a>
               );
             }
