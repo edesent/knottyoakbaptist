@@ -38,7 +38,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
     },
     {
       title: "Church Softball",
-      when: "Mondays · 6:45 PM",
+      when: nextGame ? `Mondays · ${nextGame.time}` : "Mondays · 6:45 PM",
       dayLabel: "Mon",
       description: softballDescription,
       recurring: true,
