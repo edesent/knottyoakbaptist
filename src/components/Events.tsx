@@ -52,7 +52,7 @@ export default async function Events() {
                   <img
                     src={ev.flyer}
                     alt={`${ev.title} flyer`}
-                    className="w-full h-full object-cover"
+                    className="w-full object-cover"
                   />
                 </a>
               );
