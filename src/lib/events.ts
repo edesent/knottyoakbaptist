@@ -44,7 +44,7 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       description:
         "We're giving away backpacks full of school supplies! Every child in attendance needing a backpack will receive one. Join us for Sunday School at 10:00 AM and Morning Worship at 11:00 AM.",
       contact: "Pastor Justin · (401) 212-7233",
-      flyer: "/3238.png",
+      flyer: "/3261.png",
       bgIcon: "🎒",
     },
     {
