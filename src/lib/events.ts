@@ -24,6 +24,18 @@ export async function getEvents(): Promise<ChurchEvent[]> {
 
   return [
     {
+      title: "Men's Retreat",
+      when: "Friday, September 18 & Saturday, September 19",
+      dayLabel: "Sep",
+      dateLabel: "18",
+      description:
+        "A men's retreat at Camp Northfield. $75 per man covers lodging and meals. Every man and young man is welcome, so bring a friend, bring your son, bring your neighbor.",
+      contact: "Pastor Justin · (401) 212-7233",
+      link: "/mens-retreat",
+      linkLabel: "Sign Up Here",
+      bgIcon: "🏕️",
+    },
+    {
       title: "Back to School Sunday",
       when: "Sunday, August 23 · 11:00 AM",
       dayLabel: "Aug",
