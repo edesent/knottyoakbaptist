@@ -24,19 +24,6 @@ export async function getEvents(): Promise<ChurchEvent[]> {
 
   return [
     {
-      title: "Lake Compounce Trip",
-      when: "Saturday, August 22",
-      dayLabel: "Aug",
-      dateLabel: "22",
-      description:
-        "A church day trip to Lake Compounce in Bristol, CT! $30 per person covers admission to both the amusement park and the water park. Bring appropriate clothing, a swimsuit, and a towel. Space is limited, so sign up soon!",
-      contact: "Crystal Martin · (401) 226-5856",
-      flyer: "/2756.png",
-      link: "/lake-compounce",
-      linkLabel: "Sign Up Here",
-      bgIcon: "🎢",
-    },
-    {
       title: "Back to School Sunday",
       when: "Sunday, August 23 · 11:00 AM",
       dayLabel: "Aug",
