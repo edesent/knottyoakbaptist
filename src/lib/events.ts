@@ -36,17 +36,6 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       bgIcon: "🏕️",
     },
     {
-      title: "Back to School Sunday",
-      when: "Sunday, August 23 · 11:00 AM",
-      dayLabel: "Aug",
-      dateLabel: "23",
-      description:
-        "We're giving away backpacks full of school supplies! Every child in attendance needing a backpack will receive one. Join us for Sunday School at 10:00 AM and Morning Worship at 11:00 AM.",
-      contact: "Pastor Justin · (401) 212-7233",
-      flyer: "/3261.png",
-      bgIcon: "🎒",
-    },
-    {
       title: "Church Softball",
       when: nextGame ? `Mondays · ${nextGame.time}` : "Mondays · 6:45 PM",
       dayLabel: "Mon",
