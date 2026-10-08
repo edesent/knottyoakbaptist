@@ -25,6 +25,21 @@ export default async function Events() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {events.map((ev) => {
+            if (ev.title === "Men's Steak Fry") {
+              return (
+                <a
+                  key={ev.title}
+                  href={ev.link ?? "/steak-fry"}
+                  className="relative overflow-hidden bg-white rounded-sm border border-ink-faint/15 hover:border-forest-600/40 hover:shadow-lg transition-all block group"
+                >
+                  <SteakFryFlyer />
+                  <span className="flex items-center justify-between gap-2 bg-forest-900 text-white text-xs font-semibold tracking-wide uppercase px-5 py-4">
+                    <span>Sign up for the Men&rsquo;s Steak Fry</span>
+                    <span aria-hidden="true">→</span>
+                  </span>
+                </a>
+              );
+            }
             if (FLYER_ONLY.includes(ev.title) && ev.flyer) {
               const href = ev.flyer;
               const target = "_blank";
