@@ -17,6 +17,18 @@ export type ChurchEvent = {
 export async function getEvents(): Promise<ChurchEvent[]> {
   return [
     {
+      title: "Men's Steak Fry",
+      when: "Friday, October 30 · 6:30 PM",
+      dayLabel: "30",
+      dateLabel: "Oct",
+      description:
+        "Steak, good men, and good fellowship. It's free, and a love offering plate will be out if you want to give. All men are welcome, so bring a friend.",
+      contact: "Pastor Justin · (401) 212-7233",
+      link: "/steak-fry",
+      linkLabel: "Sign Up",
+      bgIcon: "🥩",
+    },
+    {
       title: "Men's Bible Study",
       when: "Tuesdays · 6:30 PM",
       dayLabel: "Tue",
