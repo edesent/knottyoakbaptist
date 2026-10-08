@@ -1,4 +1,5 @@
 import { getEvents } from "@/lib/events";
+import SteakFryFlyer from "@/components/SteakFryFlyer";
 
 export const revalidate = 300; // ISR: refresh at most every 5 minutes
 
