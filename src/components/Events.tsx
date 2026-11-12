@@ -11,6 +11,7 @@ const FLYER_ONLY: string[] = [];
 const FLYER_COMPONENTS: Record<string, ComponentType> = {
   "Fall Clean Up Day": CleanUpFlyer,
   "Pies & Praise Service": PiesPraiseFlyer,
+  "Love Feast": LoveFeastFlyer,
 };
 
 export default async function Events() {
