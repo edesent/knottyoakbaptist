@@ -33,6 +33,17 @@ export default async function Events() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {events.map((ev) => {
+            const Flyer = FLYER_COMPONENTS[ev.title];
+            if (Flyer) {
+              return (
+                <div
+                  key={ev.title}
+                  className="relative overflow-hidden rounded-sm border border-ink-faint/15 hover:border-forest-600/40 hover:shadow-lg transition-all"
+                >
+                  <Flyer />
+                </div>
+              );
+            }
             if (FLYER_ONLY.includes(ev.title) && ev.flyer) {
               const href = ev.flyer;
               const target = "_blank";
