@@ -1,6 +1,6 @@
 import type { ComponentType } from "react";
 import { getEvents } from "@/lib/events";
-import { CleanUpFlyer, PiesPraiseFlyer } from "@/components/FallFlyers";
+import { CleanUpFlyer, LoveFeastFlyer, PiesPraiseFlyer } from "@/components/FallFlyers";
 
 export const revalidate = 300; // ISR: refresh at most every 5 minutes
 
