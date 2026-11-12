@@ -1,9 +1,17 @@
+import type { ComponentType } from "react";
 import { getEvents } from "@/lib/events";
+import { CleanUpFlyer, PiesPraiseFlyer } from "@/components/FallFlyers";
 
 export const revalidate = 300; // ISR: refresh at most every 5 minutes
 
 // Titles listed here show as a full-bleed flyer image instead of a text card.
 const FLYER_ONLY: string[] = [];
+
+// Titles listed here show as a drawn flyer component instead of a text card.
+const FLYER_COMPONENTS: Record<string, ComponentType> = {
+  "Fall Clean Up Day": CleanUpFlyer,
+  "Pies & Praise Service": PiesPraiseFlyer,
+};
 
 export default async function Events() {
   const events = await getEvents();
