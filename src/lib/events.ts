@@ -17,6 +17,20 @@ export type ChurchEvent = {
 export async function getEvents(): Promise<ChurchEvent[]> {
   return [
     {
+      title: "Fall Clean Up Day",
+      when: "Saturday, November 21 · 10:00 AM",
+      dayLabel: "21",
+      dateLabel: "Nov",
+      description: "We need your help! Come lend a hand getting the church ready for winter.",
+    },
+    {
+      title: "Pies & Praise Service",
+      when: "Wednesday, November 25 · 6:00 PM",
+      dayLabel: "25",
+      dateLabel: "Nov",
+      description: "A Thanksgiving eve service of praise. Bring your favorite pie!",
+    },
+    {
       title: "Men's Bible Study",
       when: "Tuesdays · 6:30 PM",
       dayLabel: "Tue",
