@@ -31,6 +31,13 @@ export async function getEvents(): Promise<ChurchEvent[]> {
       description: "A Thanksgiving eve service of praise. Bring your favorite pie!",
     },
     {
+      title: "Love Feast",
+      when: "Sunday, December 6",
+      dayLabel: "6",
+      dateLabel: "Dec",
+      description: "Bring your favorite Christmas dish!",
+    },
+    {
       title: "Men's Bible Study",
       when: "Tuesdays · 6:30 PM",
       dayLabel: "Tue",
