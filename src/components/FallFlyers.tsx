@@ -247,3 +247,79 @@ export function PiesPraiseFlyer() {
     </Page>
   );
 }
+
+const GREEN = "#0F6B3A";
+const RED = "#B91C1C";
+
+function Holly({ flip }: { flip?: boolean }) {
+  return (
+    <svg viewBox="0 0 120 70" style={{ width: u(150), height: u(88), display: "block", transform: flip ? "scaleX(-1)" : undefined }}>
+      <path d="M60,40 C40,20 20,30 6,14 C14,34 4,44 18,56 C30,46 46,52 60,40 Z" fill={GREEN} stroke="#0A4A28" strokeWidth="2.5" />
+      <path d="M60,40 C76,18 98,24 114,8 C108,30 118,40 104,54 C90,44 74,52 60,40 Z" fill="#1F8A4C" stroke="#0A4A28" strokeWidth="2.5" />
+      <circle cx="52" cy="46" r="8" fill={RED} />
+      <circle cx="66" cy="50" r="8" fill={RED} />
+      <circle cx="59" cy="36" r="8" fill={RED} />
+    </svg>
+  );
+}
+
+// Love Feast, Sunday December 6. Edit the wording right here.
+export function LoveFeastFlyer() {
+  return (
+    <Page
+      bg={CREAM}
+      label="Love Feast flyer. Sunday, December 6 at Knotty Oak Baptist Church, 11 Knotty Oak Road, Coventry, Rhode Island. Bring your favorite Christmas dish!"
+    >
+      <div
+        style={{
+          height: "100%",
+          boxSizing: "border-box",
+          border: `max(2px, ${u(8)}) solid ${RED}`,
+          borderRadius: u(24),
+          padding: `${u(30)} ${u(30)} ${u(40)}`,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <div style={{ display: "flex", justifyContent: "center", gap: u(40) }}>
+          <Holly />
+          <Holly flip />
+        </div>
+
+        <div style={{ fontFamily: script.style.fontFamily, fontSize: u(150), lineHeight: 1, color: GREEN, transform: "rotate(-3deg)", whiteSpace: "nowrap" }}>
+          Love Feast
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: u(8) }}>
+          <div style={{ fontSize: u(44), fontWeight: 600, letterSpacing: "0.3em", textTransform: "uppercase" }}>Sunday</div>
+          <div style={{ fontFamily: slab.style.fontFamily, fontSize: u(72), lineHeight: 1, whiteSpace: "nowrap" }}>DECEMBER 6</div>
+        </div>
+
+        <div
+          style={{
+            background: RED,
+            color: "#ffffff",
+            padding: `${u(16)} ${u(30)}`,
+            fontFamily: slab.style.fontFamily,
+            fontSize: u(30),
+            lineHeight: 1.25,
+            letterSpacing: "0.04em",
+          }}
+        >
+          BRING YOUR FAVORITE
+          <br />
+          CHRISTMAS DISH!
+        </div>
+
+        <ChurchLine color={GREEN} />
+
+        <Verse
+          text="Breaking bread from house to house, did eat their meat with gladness and singleness of heart."
+          cite="Acts 2:46"
+        />
+      </div>
+    </Page>
+  );
+}
